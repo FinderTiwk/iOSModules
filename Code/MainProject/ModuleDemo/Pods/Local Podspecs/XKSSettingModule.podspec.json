@@ -1,0 +1,24 @@
+{
+  "name": "XKSSettingModule",
+  "version": "1.0.0",
+  "summary": "设置模块",
+  "homepage": "www.xkeshi.com",
+  "license": "WTF",
+  "authors": {
+    "_Finder丶Tiwk": "fh@xkeshi.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "XKSSettingModule"
+  },
+  "source_files": "XKSSettingModule/src/**/*.{h,m}",
+  "requires_arc": true,
+  "resource_bundles": {
+    "XKSSettingModule": [
+      "XKSSettingModule/src/**/*.{storyboard,xib}",
+      "XKSSettingModule/images/images.xcassets"
+    ]
+  }
+}

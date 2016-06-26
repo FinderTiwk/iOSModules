@@ -1,0 +1,1 @@
+../../../../../../Modules/XKSCommonSDK/XKSCommon/SDK/FuntionModule/QRCode/QRCodeView.h

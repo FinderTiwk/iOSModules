@@ -1,0 +1,2404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DA04423F04CDC1500F4A10766545C1 /* XKSLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEE4DB1DAF3DFE9D8CF33D47FFC84C8 /* XKSLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0310FCF79B683DDF615B0A996A374737 /* XKSDeviceBindingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4BA9A2BBA22F447D4D2FCA60C5E626 /* XKSDeviceBindingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CF26B74A1A6C37A4766EBE66C49C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		08994B0A83389DA10F2970F6C57BDFE2 /* XKSGoodsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AFAB877C28A07DBFEF28B9FB36CA623D /* XKSGoodsCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092F9C79136EFA36474BE12BD6F7231B /* XKSLoginServices.m in Sources */ = {isa = PBXBuildFile; fileRef = A607B1DF44C1728445FAF3B23294DC3E /* XKSLoginServices.m */; };
+		0AC38BC9B04AE4BAD84D1C8ADCD1CBB6 /* XKSCommonSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9012B37B8B557CEC84567A66D81010 /* XKSCommonSDK-dummy.m */; };
+		0D06D1C8F81B2ED541ED561E8726198B /* XKSSystemObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E52A533CBEDB00DD6D698D8E5BFA5 /* XKSSystemObj.m */; };
+		11A91B8CEE676E91F593D911BC1C4BAA /* RSAValidater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4702A65944019B899162B3FB32F499C8 /* RSAValidater.m */; };
+		11F77CDA1739B2296EADD76EF9CEA7BD /* BaseValidater.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9B03266C6C3407A2F9517273D5DFC7 /* BaseValidater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1636DEEF4B8763F036DB08A5BA2D5949 /* DSAValidater.h in Headers */ = {isa = PBXBuildFile; fileRef = 8670D56AB6442A20C803D88FABE83C9E /* DSAValidater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1785DCFD02A82505647C7DF4EF2B02AC /* MD5Signater.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A09F3B34ED284DC460E060F52AA3BE /* MD5Signater.m */; };
+		1B18148C914BD9F0790D557071F8BADC /* XKSSettingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 066CF963CEA37F2AA6B93AFB7DB0797F /* XKSSettingServices.m */; };
+		1C200AB66204109885683C877B2CE917 /* XKSSystemObj.h in Headers */ = {isa = PBXBuildFile; fileRef = D0399F7636DB7605C111224D75D791FB /* XKSSystemObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C596F97C4BA305AED6F017BD9181B00 /* IPConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E2168A44C9859C31D9B59E09DC93 /* IPConfigCell.m */; };
+		1E87BAC2CBCFCDE2DBB1FCE60EB9666A /* RSASignater.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F96163EED60076182659CDF601650E /* RSASignater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221845FAD2B5A194B4BF8EA8D289B7A3 /* SignatureViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A16A9917CD096885A9B78353288385E /* SignatureViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269DFEBE7BDB1AC5F4EA7859D9148FC0 /* NSString+Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CC9ED4BB2009D5E312E5E2F1A0BDD /* NSString+Chinese.m */; };
+		2722415C08805E4C87004AA6AD653845 /* XKSGlobalSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E5DF42056B53F645B33DE1CB2A6D7F /* XKSGlobalSetting.m */; };
+		2AD772AFF9CE02D18426FFDC9A1F33FE /* XKSSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F21DD27726831486A22FADC7C4223328 /* XKSSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D4E149F440E42D196BB918B3241C15F /* XKSOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E74E104669E1DEADBD636C6572AEB3C /* XKSOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4C250D13757B469FFF3950FC49CAA7 /* XKSAlertWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = AF93BD969B5D01FBB0B6A0462361E8C4 /* XKSAlertWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331BE0AC07F07814AC779622579BBAC6 /* XKSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC31E7AB6AB6315873F37BD5B52DD3C /* XKSNetworking.m */; };
+		34527C5D5EF97476E700C7DD721B7810 /* QRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22673C7923E52AAB92DEF93C71CA0BCD /* QRCodeView.m */; };
+		370E91890C8B3A52B44232686F36ED9A /* BluetoothListViewcontroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7C058C1DDB9480A2AF60FFCB513801 /* BluetoothListViewcontroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FE31D954BF67947F8513651E88093B /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53DF285541C5650A7C2C5330AB21179 /* SignatureView.m */; };
+		38FE84973A4A20D518C017EC0DFF2868 /* UIImage+Xkeshi.h in Headers */ = {isa = PBXBuildFile; fileRef = AACB8FCA4EECD65B46E399015F1C41C0 /* UIImage+Xkeshi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BCFA3F8AC19AED00600FB79EE4799C /* XKSAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5947C1647302EBE84E46B438F52636 /* XKSAlertView.xib */; };
+		481A0088A605E8EDD8EF515942121D94 /* XKSValidater.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C88ED6974A59AD8031D5D39C5007C7 /* XKSValidater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F34EF463CE5FD5E539B04F5E6D5E6F1 /* GoodsShelfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F056668C5E0D5EEA6980F23193821 /* GoodsShelfCell.m */; };
+		50A5270F7C413DA8AAD2EB4B569B7918 /* XKSLoginServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 223081D93658E51CE07AB707384319B4 /* XKSLoginServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517D0AE221F1DDE32F7D7F98FBDC694A /* XKSLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E855F5ACF4FB925B9E1210C0CEB15 /* XKSLoginViewController.storyboard */; };
+		522469E4059DF3B7A7FF98B39BEF8BF9 /* UIView+Corner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1728AC73A29B234E15DCCB34F0A4E9 /* UIView+Corner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5263F438CE3670492C39B735DC85A257 /* RSAValidater.h in Headers */ = {isa = PBXBuildFile; fileRef = DF679FA3672DD78AA057E77923DCE847 /* RSAValidater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		539400B6700F070080660A7DB0336F86 /* XKSCommonResources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903D9DBBE7B025A3BE1B7AF6E939CB95 /* XKSCommonResources.xcassets */; };
+		59077E66BD7842DA1BFB78F4B1A8AB8A /* XKSCommonErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 984FC32E5ECE30B32BE9C8D829D6E4B4 /* XKSCommonErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7BD613A4AFCD5FCFA4F68FCEFD4ACC /* XKSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA401FD328482237B4A53A244FC6282 /* XKSHomeViewController.m */; };
+		5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B83CB749E88FA07AC069C64FB42A0B41 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630CE1B6C390C0FDF676ABD50DEA20AB /* NSString+Chinese.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C79DC09DA43201D477597924017DD9 /* NSString+Chinese.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631146F3710D9BEE3864F208DA0BF3E4 /* MD5Validater.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C0786FBCEA3A6D642AACD167C6ECE9 /* MD5Validater.m */; };
+		68AA74FBB6C707FBE82C42E2DAA010F7 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB495DE7B5ED08E29816EA554938625B /* images.xcassets */; };
+		69836E9BBC7BADC9321C2F54274D8ABC /* XKSCommonFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 472A173ED495DB1EE9E990C9B70DE546 /* XKSCommonFunction.m */; };
+		6D6E0A2A3CFB3975E51D3FF511C046DC /* XKSRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD2F19762B1B53537239E36E1F908F /* XKSRequestParameter.m */; };
+		6DEAE195BEC802EA7AD6EFBEB38A10E9 /* XKSVideoPreviewLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 228FED7208E8ECCC644EC1F0BECD31F5 /* XKSVideoPreviewLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCB2E62967F1FA5C4520807475750AF /* XKSHomeServices.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9564F670D46233ED35C28C0E6B86A /* XKSHomeServices.m */; };
+		76753BF0252F37352DC3E1A47B74467E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		7A13491F153E135EEEDDC0ACBFB248D0 /* Pods-ModuleDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B02735B2B04A4822B134FC852297558F /* Pods-ModuleDemo-dummy.m */; };
+		7CB3F2CDFE4944F16BD02B87AF3A2AFD /* XKSHomeServices.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC80E79818CFCAD535C7ABDF5A88912 /* XKSHomeServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8263B1E44FC0CCE944C5486F40D32A6A /* RSASignater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C62234C54FF4BE29E0943B7189E378B /* RSASignater.m */; };
+		82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F913CEC8710507299A98566DF40F70 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		834A12788B173FD15B41AB27092EE358 /* BaseSignater.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB5DB27D183E6F1D55C9EB0F010FEF7 /* BaseSignater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842F7B1F30C821F04467CD4C524A4698 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E15D786B0FD1D15DC499F39F0BEF5B /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89611A4A6B70927D54DE365742872377 /* XKSHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D4FD05CC6CA06317E561ACA23541AE /* XKSHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A2CECF18F255E75867FA872862983CA /* XKSSettingModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8525404E011A4C84A606F0D8E2907336 /* XKSSettingModule-dummy.m */; };
+		8E95516E3C49D95E37F31C1447CFBDC8 /* DSASignater.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A465804F2656145B66A4528F0CCF44 /* DSASignater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B19BE56B5A749825A8C561996D098F /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F9FEFFCBF37A5B626E5221515FA685 /* images.xcassets */; };
+		91BA63936E8A0E113E3F055EC5A1E9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		9251D823C9187CBD82953FA3F5FE21F2 /* XKSEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 032CB65E85AE80C0601D18733FA2D179 /* XKSEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92693503A79E6411BD35CB2466DE0853 /* XKSSettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D602DBFC0E746F0B71180BA0E57510 /* XKSSettingViewController.storyboard */; };
+		9378AC76D9D0C9248A89816F784CA417 /* XKSBillViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 973912B1E1CB614FF25F89C85E3CCBE0 /* XKSBillViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93AE3400573CA49B0F85B2AAB0696E51 /* XKSShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 319AAE7FBC53E07F0F7A922BFF292352 /* XKSShapeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94FC4AE35C0F90BD510E491C20A2F830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		97EF78253055D8D77AA4540D4CE810E9 /* BluetoothListViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9AD8B61FE5D7BF4EE249B953F7825F /* BluetoothListViewcontroller.m */; };
+		9845EB7BF12FBCDE4149F8B8C0C87F04 /* BaseValidater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FC0AB3C09E67935EE792604C5F7B0 /* BaseValidater.m */; };
+		9AA1C94F7B41847F5FEA8A9A8BD12571 /* DSAValidater.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8148E5464E8A258EDBED6184A85351 /* DSAValidater.m */; };
+		9AB1E7FDCCB09BCA36A414230C76444B /* XKSCommonSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B151713F0E203479A672C62775CB67 /* XKSCommonSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7586D6A66433D0415D00144774346A /* MD5Validater.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AC3CB142E365A5DE985FDB41925E3 /* MD5Validater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F601D78B6CDF6FB2EE801A970DB234E /* QRMaskLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC02D082BCB88662B15F14E48F9E24C7 /* QRMaskLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1DC4BBB9A03C371E7688ADE0C589FEB /* XKSEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E32AD8AF912FE604E13690D6A398C77B /* XKSEncryptor.m */; };
+		A44C5D875A0283DAFD8BD6F89B337DED /* XKSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751603562137DE55D55AFB7F9D22CAB1 /* XKSLoginViewController.m */; };
+		A61225351472628DBC526B54BA55A0F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		A72B1AF12753E9FFAC3B6D565B814A35 /* XKSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 43357156BB1BEDF34436F1A5F146B2F4 /* XKSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5925379E47AD8403166722604157F3 /* XKSHomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFC8582AE38AE066C2F5B9A42A03EC3 /* XKSHomeViewController.storyboard */; };
+		AABCB7606A5AA13C796FE7DD0E0F4D20 /* XKSOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2B4581AEB80670B0EBE2B85015040F /* XKSOperator.m */; };
+		AB423E3B374F946406D7C57A50A5C911 /* XKSHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBF6378AE9110A9051D74B04961048 /* XKSHomeModule-dummy.m */; };
+		ACA231E63C05DA486AD13E5EFA446B34 /* XKSLoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6424C0D19021811F7F2712D574F490 /* XKSLoginModule-dummy.m */; };
+		AF6FA4AAEB6D3B174CAB0249E6259ABD /* XKSSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 43331134DD1984311323ADD385E95F18 /* XKSSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE2C82B890B595C6ADF185D5AE98762 /* XKSDeviceBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2A311946871C63DDD21F8CECC2A7 /* XKSDeviceBindingViewController.m */; };
+		B5097414A24B3E770B7B4909690BECA4 /* SignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2528CA08E432933792306DD0F603C8CB /* SignatureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79D1B6F33E6229F2C9C4E039A2C3D4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */; };
+		B81193C8A037F68E71FAB5BDE3909752 /* PaperSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 793A66D617EFA2B9ABD1A19734F57159 /* PaperSwitch.m */; };
+		B9644A89DD00D2E9CACBEBAD0B5DD0D1 /* XKSBillCustomViews.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA5B65AA6D796062EC061DE45943126 /* XKSBillCustomViews.m */; };
+		BC102E6A0837AE690C0EE7F1C9FF81B1 /* DSASignater.m in Sources */ = {isa = PBXBuildFile; fileRef = BC47C662F2C581BE2CA605C671191B81 /* DSASignater.m */; };
+		BD49808AB047FD34418CAB95F9F35B10 /* XKSRequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 731E15F75EB74A130F0C5339E5A1570D /* XKSRequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C166B80CBDDD40C0A49634EDB0F3ABE1 /* XKSSettingServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD89F02943537E3684781109624B3 /* XKSSettingServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C45A7DA30897F93420C2CD9F95BD47DA /* PaperSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A1DE683FBBBFE9D0A8E5BCC83BFFD4 /* PaperSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C833226B90D0FB9EBA515CA2B0CD2F70 /* GoodsShelfCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD9C0984643A64104C929EF6C84B317 /* GoodsShelfCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90AE1863854232F075EEF2B66E8A678 /* XKSBillCustomViews.h in Headers */ = {isa = PBXBuildFile; fileRef = AB50A8E76B0CD48467C14B41C3E93569 /* XKSBillCustomViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9B3C5361759B40762705444699F233B /* XKSSignater.h in Headers */ = {isa = PBXBuildFile; fileRef = AED70FE39BA75215E995BB4A35748E62 /* XKSSignater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F5127758E91A4B4548634BE5BCC0A7 /* MD5Signater.h in Headers */ = {isa = PBXBuildFile; fileRef = 72FE77B742EA490C1699E108E3E31DF1 /* MD5Signater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB395E50A33CB1452713B7128492DE0A /* XKSGlobalSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BCFA249C82C51F7CB2E606B4A28EE7 /* XKSGlobalSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B147B4B1669E8E6329BA368E95BB3 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F3E049A54638E00F59E748002BA541 /* SignatureViewController.m */; };
+		D30DEA84BC6874FB5919FB8E9BB4297D /* XKSShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A321B49CDBD577825F7DC29010DC39 /* XKSShapeLayer.m */; };
+		DA37C7D388170FF50F3F5F31C50A3DD7 /* XKSDeviceBindingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F0325F88A9D5EA1014A8D5574F936A /* XKSDeviceBindingViewController.storyboard */; };
+		DF1CB147B06160F3633F0BE3746A1DBA /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B1E348CA3B135DECBE08F33B9CB863 /* images.xcassets */; };
+		DF4424212A8265229D21C480F5A179AE /* XKSCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 213D2FA101BFCA603193789D146B2637 /* XKSCommonMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E1CAC4DDC9BA4DEECD6DF294172A71 /* XKSVideoPreviewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A56DC13F885E55E0F6278CFBE3FDDFE /* XKSVideoPreviewLayer.m */; };
+		E245D92AA918BD9CDC949A75C376B4C7 /* XKSCommonTips.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DC5551D93CF5A2EB3302861D335059 /* XKSCommonTips.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F5701F4327FA2B94216E08A753ED8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		EAB1BA8C9262FFCBD14DCF61AE4EA082 /* BaseSignater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B312DA945866E9291712AB1AFA52 /* BaseSignater.m */; };
+		EB77ADDCD66253164CE85E13F1717F1E /* XKSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A46C883C6E8B1EECF85E0977F650E4 /* XKSSettingViewController.m */; };
+		EC6E48B9EBF934AD008F2F37FF928485 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C875B88B79C9D6D116002BB8E03C3DA /* UIView+Frame.m */; };
+		ED83947FB2ABD289D47F918F5BDAC6A2 /* XKSBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9FDBB33EAA8FC12395E479ECCEEA5D /* XKSBillViewController.m */; };
+		EF6867DC4FDCD740AF09928FE7773B28 /* QRMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C12AC4230F766DEC7E65E9804D9AE4 /* QRMaskLayer.m */; };
+		F29ED1601C0F23CCE49463E10761787D /* XKSAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F511902FD924A64FA14EDAC94C978 /* XKSAlertWindow.m */; };
+		F3E40A52D8F31769534DF608D58E6275 /* XKSCommonFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E35591096C3691D22F4D03A27B9F326 /* XKSCommonFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A60E227CFA777E8CE0E4AF0C223CCD /* UIView+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A19181A18F218CF7AFE260BA14C7D2 /* UIView+Corner.m */; };
+		FB8C7093610ADF3586BB3C7A9CE158E9 /* UIImage+Xkeshi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E915F12F8F9412A3BEC29A644377889 /* UIImage+Xkeshi.m */; };
+		FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15301E760175947F78C3696C33B33403 /* MBProgressHUD-dummy.m */; };
+		FC730D6732EA522C08C5E3A88DC188D5 /* XKSCommonEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8DEF013A71B233F03F82E20FD21B82 /* XKSCommonEnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD5ADA0EB8F9BCDB31D3BFEA24121496 /* XKSGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7069AACA283002223F6E020FC9B1E4F5 /* XKSGoodsCell.m */; };
+		FF2879496771A1A299B8C18E49CDE4F6 /* QRCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6AF2DEB0E55A137C47B1A1CB6C5822 /* QRCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFC9580CEE877377FF2FFC13A9CC809 /* IPConfigCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 972DBADAAB126A5913EFA64098A36C28 /* IPConfigCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0069BD7D5140D95AA58E2CF9A58067DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2F1D7B9D9FCEA148517E4657B243F4;
+			remoteInfo = MBProgressHUD;
+		};
+		1355B1B8CC697D8E1B02205470B54D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 935ACEC7D2C57102D53890BAF0ADB43B;
+			remoteInfo = XKSLoginModule;
+		};
+		46C717FF45DE2934838A2B3BE9A21ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB85150DDCCCC57A6793217CEF47664;
+			remoteInfo = XKSSettingModule;
+		};
+		5D28863726D03E5FB0441FC6BBF8B0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3AC04916726D20F92A2F5B4658A079;
+			remoteInfo = XKSCommonSDK;
+		};
+		991C928F55DF24E8F2A7D6F95D517391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2F1D7B9D9FCEA148517E4657B243F4;
+			remoteInfo = MBProgressHUD;
+		};
+		A6432D498CD6CD8C0CCC1531C548007B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 123C32609F3EF8D0BB83AEFA1642E6A4;
+			remoteInfo = "XKSSettingModule-XKSSettingModule";
+		};
+		BF725380D60087DB873D46A9CE133D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666038BD441721E5EEB096EB47F5ABF1;
+			remoteInfo = "XKSHomeModule-XKSHomeModule";
+		};
+		D78572C466FFAE353CFC4C9B22C237FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E840912AED238862E908A1E641AC65;
+			remoteInfo = "XKSCommonSDK-XKSCommonSDK";
+		};
+		E4A7D60517E55B85F6EFB3D2B6805905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F9052554685E800A5423FE95258BF7;
+			remoteInfo = XKSHomeModule;
+		};
+		F4A7327B316AFE96AF55669ED918A12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1B8635136D38C6D845EDC6B4C44011;
+			remoteInfo = "XKSLoginModule-XKSLoginModule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013E52A533CBEDB00DD6D698D8E5BFA5 /* XKSSystemObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSSystemObj.m; sourceTree = "<group>"; };
+		01BCFA249C82C51F7CB2E606B4A28EE7 /* XKSGlobalSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSGlobalSetting.h; sourceTree = "<group>"; };
+		02C88ED6974A59AD8031D5D39C5007C7 /* XKSValidater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSValidater.h; sourceTree = "<group>"; };
+		0325A699971CA1FDABF10BAE517DE4B7 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = "include-ios/openssl/ossl_typ.h"; sourceTree = "<group>"; };
+		032CB65E85AE80C0601D18733FA2D179 /* XKSEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSEncryptor.h; sourceTree = "<group>"; };
+		06368BB4771C7BA6CBE41829BD00E8AC /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "include-ios/openssl/hmac.h"; sourceTree = "<group>"; };
+		066CF963CEA37F2AA6B93AFB7DB0797F /* XKSSettingServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSSettingServices.m; sourceTree = "<group>"; };
+		06A0242B29F5FCD3902505A30BEA4A25 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = "include-ios/openssl/obj_mac.h"; sourceTree = "<group>"; };
+		075D1F945B55C8E61DD97B4C1662E05A /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = "include-ios/openssl/srp.h"; sourceTree = "<group>"; };
+		0900FE64159B280FC7D61C8354E2AB8A /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = "include-ios/openssl/opensslv.h"; sourceTree = "<group>"; };
+		09FB9B55014FA67A98B6692DBB4F05F9 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = "include-ios/openssl/ssl23.h"; sourceTree = "<group>"; };
+		0A70ADEAF0C6E675B7AC1E6D34F12C7F /* XKSHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKSHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		0B46ECC0F6C133DED98CA42FC9945B18 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = "include-ios/openssl/ec.h"; sourceTree = "<group>"; };
+		0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0D7A95C0E039D9161EAE2892A078D3EB /* Pods-ModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D92A58D753BABB05758FA60847649C6 /* libXKSLoginModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXKSLoginModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2F95286DE7F9045C62233725D12EB8 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = "include-ios/openssl/ssl.h"; sourceTree = "<group>"; };
+		0E50F0FE86A49774D39ADA97BC394627 /* ResourceBundle-XKSSettingModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XKSSettingModule-Info.plist"; sourceTree = "<group>"; };
+		1045FE8E13A31C6F135CE0F5C95A374D /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = "include-ios/openssl/srtp.h"; sourceTree = "<group>"; };
+		11A321B49CDBD577825F7DC29010DC39 /* XKSShapeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSShapeLayer.m; sourceTree = "<group>"; };
+		11B06DFD7C7918EB848261612AE8070D /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = "include-ios/openssl/comp.h"; sourceTree = "<group>"; };
+		12E5DF42056B53F645B33DE1CB2A6D7F /* XKSGlobalSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSGlobalSetting.m; sourceTree = "<group>"; };
+		1307C48A1854454E9B2338D473EFEBF8 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = "include-ios/openssl/pem2.h"; sourceTree = "<group>"; };
+		15301E760175947F78C3696C33B33403 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		15C3F5C6A16FF9252890C70FA51F3C4D /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = "include-ios/openssl/cast.h"; sourceTree = "<group>"; };
+		186E855F5ACF4FB925B9E1210C0CEB15 /* XKSLoginViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = XKSLoginViewController.storyboard; sourceTree = "<group>"; };
+		18750C42D2471291208E10458D78AAAE /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = "include-ios/openssl/engine.h"; sourceTree = "<group>"; };
+		1B9AD8B61FE5D7BF4EE249B953F7825F /* BluetoothListViewcontroller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BluetoothListViewcontroller.m; sourceTree = "<group>"; };
+		1C52F1B876C32133CDDFD2FEC736E4AA /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = "include-ios/openssl/rsa.h"; sourceTree = "<group>"; };
+		1E155DC135849BA57A65B5409BB87352 /* Pods-ModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1E35591096C3691D22F4D03A27B9F326 /* XKSCommonFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSCommonFunction.h; sourceTree = "<group>"; };
+		20435DBD5757471E3455DEE8A38C50F5 /* XKSCommonSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKSCommonSDK.xcconfig; sourceTree = "<group>"; };
+		20D602DBFC0E746F0B71180BA0E57510 /* XKSSettingViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = XKSSettingViewController.storyboard; sourceTree = "<group>"; };
+		213D2FA101BFCA603193789D146B2637 /* XKSCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSCommonMacro.h; sourceTree = "<group>"; };
+		21A62423BB0B4C00648CA980C7E4B22B /* XKSSettingModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKSSettingModule-prefix.pch"; sourceTree = "<group>"; };
+		21B35B1E3D0735FEEB377FECCFE61F58 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = "include-ios/openssl/ecdh.h"; sourceTree = "<group>"; };
+		223081D93658E51CE07AB707384319B4 /* XKSLoginServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSLoginServices.h; sourceTree = "<group>"; };
+		22673C7923E52AAB92DEF93C71CA0BCD /* QRCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QRCodeView.m; sourceTree = "<group>"; };
+		228FED7208E8ECCC644EC1F0BECD31F5 /* XKSVideoPreviewLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSVideoPreviewLayer.h; sourceTree = "<group>"; };
+		22F96163EED60076182659CDF601650E /* RSASignater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSASignater.h; sourceTree = "<group>"; };
+		23666AF87722E5A78E34114D0ED1771B /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "lib-ios/libssl.a"; sourceTree = "<group>"; };
+		241A6EBD0EE53C45EB12618266EB4A17 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = "include-ios/openssl/rc2.h"; sourceTree = "<group>"; };
+		2528CA08E432933792306DD0F603C8CB /* SignatureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SignatureView.h; sourceTree = "<group>"; };
+		256AC3CB142E365A5DE985FDB41925E3 /* MD5Validater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MD5Validater.h; sourceTree = "<group>"; };
+		25A1DE683FBBBFE9D0A8E5BCC83BFFD4 /* PaperSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PaperSwitch.h; sourceTree = "<group>"; };
+		27CFD806E15E9641390B95C060F2EC21 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = "include-ios/openssl/asn1t.h"; sourceTree = "<group>"; };
+		2A56DC13F885E55E0F6278CFBE3FDDFE /* XKSVideoPreviewLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSVideoPreviewLayer.m; sourceTree = "<group>"; };
+		319AAE7FBC53E07F0F7A922BFF292352 /* XKSShapeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSShapeLayer.h; sourceTree = "<group>"; };
+		32B2FBA38C9FB138FE45FA6EE0F28E27 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		363F1D1D18108943C2C715A39CF5B966 /* libXKSCommonSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXKSCommonSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C4CDC006F1CABD0D8F3A39FF1EBA0A /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = "include-ios/openssl/bio.h"; sourceTree = "<group>"; };
+		38AAC50B765F1BB9D0BD45C670E2DE81 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "include-ios/openssl/sha.h"; sourceTree = "<group>"; };
+		38E15D786B0FD1D15DC499F39F0BEF5B /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3A708F47421C88285AD2BD469F7F9E78 /* ResourceBundle-XKSHomeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XKSHomeModule-Info.plist"; sourceTree = "<group>"; };
+		3A9B03266C6C3407A2F9517273D5DFC7 /* BaseValidater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseValidater.h; sourceTree = "<group>"; };
+		43331134DD1984311323ADD385E95F18 /* XKSSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSSerializable.h; sourceTree = "<group>"; };
+		43357156BB1BEDF34436F1A5F146B2F4 /* XKSNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSNetworking.h; sourceTree = "<group>"; };
+		447785BA5E5D7B06E7A65D86A3925A4D /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = "include-ios/openssl/opensslconf.h"; sourceTree = "<group>"; };
+		463166B815A2FC2E53CF431592463B5C /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = "include-ios/openssl/dtls1.h"; sourceTree = "<group>"; };
+		46B1E348CA3B135DECBE08F33B9CB863 /* images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		4702A65944019B899162B3FB32F499C8 /* RSAValidater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSAValidater.m; sourceTree = "<group>"; };
+		472A173ED495DB1EE9E990C9B70DE546 /* XKSCommonFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSCommonFunction.m; sourceTree = "<group>"; };
+		47DFC076E1E116D0BD10D4AEDB41DEA3 /* XKSSettingModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKSSettingModule.xcconfig; sourceTree = "<group>"; };
+		4AEE4DB1DAF3DFE9D8CF33D47FFC84C8 /* XKSLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSLoginViewController.h; sourceTree = "<group>"; };
+		4BD27454B4B8B61EE13C8D7D1365B244 /* Pods-ModuleDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuleDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4C875B88B79C9D6D116002BB8E03C3DA /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		4CEE3E10A599C65F0A0D268497001349 /* XKSHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKSHomeModule.xcconfig; sourceTree = "<group>"; };
+		4D4443ADE8DC13BE359A28C401F17E93 /* XKSCommonSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSCommonSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6AF2DEB0E55A137C47B1A1CB6C5822 /* QRCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QRCodeView.h; sourceTree = "<group>"; };
+		4FB5DB27D183E6F1D55C9EB0F010FEF7 /* BaseSignater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseSignater.h; sourceTree = "<group>"; };
+		50677A345B0F7DA7B01D29B875F654D1 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = "include-ios/openssl/conf.h"; sourceTree = "<group>"; };
+		50CB7B843A8E929C5AFCED5DF8D16430 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = "include-ios/openssl/ocsp.h"; sourceTree = "<group>"; };
+		51BC635514D9B824668A1F061C3AA8B2 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = "include-ios/openssl/whrlpool.h"; sourceTree = "<group>"; };
+		549B5E8DE5CFC8EE75EDD7CA6222265D /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = "include-ios/openssl/ssl3.h"; sourceTree = "<group>"; };
+		58230425BB3E8D546357D796821A2ECC /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "include-ios/openssl/camellia.h"; sourceTree = "<group>"; };
+		58BCE185E89082CA2614F82AEBD693E8 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = "include-ios/openssl/ebcdic.h"; sourceTree = "<group>"; };
+		59B33AFB438CA6ECFB088A6A018C2B5A /* Pods-ModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5A16A9917CD096885A9B78353288385E /* SignatureViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		5A60EB12D4B031C1084D79D0FA31F0B0 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = "include-ios/openssl/x509_vfy.h"; sourceTree = "<group>"; };
+		5AA401FD328482237B4A53A244FC6282 /* XKSHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSHomeViewController.m; sourceTree = "<group>"; };
+		5BCBF6378AE9110A9051D74B04961048 /* XKSHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKSHomeModule-dummy.m"; sourceTree = "<group>"; };
+		5C2B4581AEB80670B0EBE2B85015040F /* XKSOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSOperator.m; sourceTree = "<group>"; };
+		5F86965BE84FF9D5165717810B44A990 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = "include-ios/openssl/bn.h"; sourceTree = "<group>"; };
+		61B50D6ADD52A33108AB77782A922762 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = "include-ios/openssl/cmac.h"; sourceTree = "<group>"; };
+		62CFDD14322CDEA492E1C7D9CB17BE00 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = "include-ios/openssl/asn1.h"; sourceTree = "<group>"; };
+		6A0CC7028751ED86404E8B5B90FF8ED1 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "include-ios/openssl/aes.h"; sourceTree = "<group>"; };
+		6A5947C1647302EBE84E46B438F52636 /* XKSAlertView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XKSAlertView.xib; sourceTree = "<group>"; };
+		6A87B4099050067846D6F45ED6C69307 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = "include-ios/openssl/lhash.h"; sourceTree = "<group>"; };
+		6ACFD89F02943537E3684781109624B3 /* XKSSettingServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSSettingServices.h; sourceTree = "<group>"; };
+		6D1728AC73A29B234E15DCCB34F0A4E9 /* UIView+Corner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner.h"; sourceTree = "<group>"; };
+		6D8DEF013A71B233F03F82E20FD21B82 /* XKSCommonEnumeration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSCommonEnumeration.h; sourceTree = "<group>"; };
+		6F93E4D1484847E23198E2AFF9BAAD47 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = "include-ios/openssl/asn1_mac.h"; sourceTree = "<group>"; };
+		6FC31E7AB6AB6315873F37BD5B52DD3C /* XKSNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSNetworking.m; sourceTree = "<group>"; };
+		7069AACA283002223F6E020FC9B1E4F5 /* XKSGoodsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSGoodsCell.m; sourceTree = "<group>"; };
+		71316007B094B28BA00A5468A467C077 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = "include-ios/openssl/pkcs12.h"; sourceTree = "<group>"; };
+		714EA8394A71C650B80627F4C69174A0 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = "include-ios/openssl/mdc2.h"; sourceTree = "<group>"; };
+		72A46C883C6E8B1EECF85E0977F650E4 /* XKSSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSSettingViewController.m; sourceTree = "<group>"; };
+		72D4F79994E7BFA7ED0E3F94C2FEB73E /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = "include-ios/openssl/err.h"; sourceTree = "<group>"; };
+		72FE77B742EA490C1699E108E3E31DF1 /* MD5Signater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MD5Signater.h; sourceTree = "<group>"; };
+		731E15F75EB74A130F0C5339E5A1570D /* XKSRequestParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSRequestParameter.h; sourceTree = "<group>"; };
+		73DC5551D93CF5A2EB3302861D335059 /* XKSCommonTips.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSCommonTips.h; sourceTree = "<group>"; };
+		7455D8997F492B6118DEEC00E77E0214 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = "include-ios/openssl/symhacks.h"; sourceTree = "<group>"; };
+		747A00A568C2AFF402AEF4FE4C732D6F /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "lib-ios/libcrypto.a"; sourceTree = "<group>"; };
+		74AA45B8963C8EDEDE3D4BF31A499331 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "include-ios/openssl/stack.h"; sourceTree = "<group>"; };
+		751603562137DE55D55AFB7F9D22CAB1 /* XKSLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSLoginViewController.m; sourceTree = "<group>"; };
+		77B151713F0E203479A672C62775CB67 /* XKSCommonSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSCommonSDK.h; sourceTree = "<group>"; };
+		78B20480E6D6CCCA3755E8804F754919 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "include-ios/openssl/blowfish.h"; sourceTree = "<group>"; };
+		78C79DC09DA43201D477597924017DD9 /* NSString+Chinese.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Chinese.h"; sourceTree = "<group>"; };
+		793A66D617EFA2B9ABD1A19734F57159 /* PaperSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PaperSwitch.m; sourceTree = "<group>"; };
+		79CB6802F9F4681ABD75716319745475 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = "include-ios/openssl/objects.h"; sourceTree = "<group>"; };
+		7A7C63B4B83028742E62CA459F9E6DA4 /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = "include-ios/openssl/ts.h"; sourceTree = "<group>"; };
+		7AD3902EDA5BD2285E81CB59CBE319A3 /* ResourceBundle-XKSLoginModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XKSLoginModule-Info.plist"; sourceTree = "<group>"; };
+		7E31525D8625B4543F6D5F257B36C451 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		7E74E104669E1DEADBD636C6572AEB3C /* XKSOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSOperator.h; sourceTree = "<group>"; };
+		7E915F12F8F9412A3BEC29A644377889 /* UIImage+Xkeshi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Xkeshi.m"; sourceTree = "<group>"; };
+		7F3A7F5AC3E8572BECD9A2E5A4C299C1 /* XKSLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKSLoginModule-prefix.pch"; sourceTree = "<group>"; };
+		81E7E2168A44C9859C31D9B59E09DC93 /* IPConfigCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IPConfigCell.m; sourceTree = "<group>"; };
+		82D4FD05CC6CA06317E561ACA23541AE /* XKSHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSHomeViewController.h; sourceTree = "<group>"; };
+		83A6139167E60ED034CC297D6A066395 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = "include-ios/openssl/md4.h"; sourceTree = "<group>"; };
+		8473D42EA0EC7595464EA0C63EDC767F /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "include-ios/openssl/md5.h"; sourceTree = "<group>"; };
+		8525404E011A4C84A606F0D8E2907336 /* XKSSettingModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKSSettingModule-dummy.m"; sourceTree = "<group>"; };
+		8670D56AB6442A20C803D88FABE83C9E /* DSAValidater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSAValidater.h; sourceTree = "<group>"; };
+		887C81FBDB3DEF410628F747BD1DFEDA /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = "include-ios/openssl/pem.h"; sourceTree = "<group>"; };
+		8C2EC3E2334E660A20E519AEAABFC05A /* Pods-ModuleDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuleDemo-resources.sh"; sourceTree = "<group>"; };
+		8D9012B37B8B557CEC84567A66D81010 /* XKSCommonSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKSCommonSDK-dummy.m"; sourceTree = "<group>"; };
+		8F8B149938E60B2D1BA7A299725B7CEB /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = "include-ios/openssl/x509v3.h"; sourceTree = "<group>"; };
+		8FEC25E75544324F1946A312BD7F904E /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = "include-ios/openssl/ssl2.h"; sourceTree = "<group>"; };
+		903D9DBBE7B025A3BE1B7AF6E939CB95 /* XKSCommonResources.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = XKSCommonResources.xcassets; sourceTree = "<group>"; };
+		91A19181A18F218CF7AFE260BA14C7D2 /* UIView+Corner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corner.m"; sourceTree = "<group>"; };
+		9295B312DA945866E9291712AB1AFA52 /* BaseSignater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseSignater.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C0786FBCEA3A6D642AACD167C6ECE9 /* MD5Validater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MD5Validater.m; sourceTree = "<group>"; };
+		96DE2A311946871C63DDD21F8CECC2A7 /* XKSDeviceBindingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSDeviceBindingViewController.m; sourceTree = "<group>"; };
+		972DBADAAB126A5913EFA64098A36C28 /* IPConfigCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IPConfigCell.h; sourceTree = "<group>"; };
+		973912B1E1CB614FF25F89C85E3CCBE0 /* XKSBillViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSBillViewController.h; sourceTree = "<group>"; };
+		984FC32E5ECE30B32BE9C8D829D6E4B4 /* XKSCommonErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSCommonErrorCode.h; sourceTree = "<group>"; };
+		98F0325F88A9D5EA1014A8D5574F936A /* XKSDeviceBindingViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = XKSDeviceBindingViewController.storyboard; sourceTree = "<group>"; };
+		9C62234C54FF4BE29E0943B7189E378B /* RSASignater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSASignater.m; sourceTree = "<group>"; };
+		9C9FC0AB3C09E67935EE792604C5F7B0 /* BaseValidater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseValidater.m; sourceTree = "<group>"; };
+		9CA04EDEB410DEF60F9C3975888CE63D /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "include-ios/openssl/buffer.h"; sourceTree = "<group>"; };
+		9D7C058C1DDB9480A2AF60FFCB513801 /* BluetoothListViewcontroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BluetoothListViewcontroller.h; sourceTree = "<group>"; };
+		9D9211EC88368DFCB80953932052A5E1 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = "include-ios/openssl/safestack.h"; sourceTree = "<group>"; };
+		9DC2EC86919EA46DDDBD8EF757B2F7A7 /* libXKSSettingModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXKSSettingModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD5EC1D96C6300791A072304636D743 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = "include-ios/openssl/pkcs7.h"; sourceTree = "<group>"; };
+		A10F511902FD924A64FA14EDAC94C978 /* XKSAlertWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSAlertWindow.m; sourceTree = "<group>"; };
+		A209AB646891F4115847BB2464CE6369 /* XKSSettingModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSSettingModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD2F19762B1B53537239E36E1F908F /* XKSRequestParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSRequestParameter.m; sourceTree = "<group>"; };
+		A373F4EBEC8524A9EEC2699A61256307 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = "include-ios/openssl/cms.h"; sourceTree = "<group>"; };
+		A607B1DF44C1728445FAF3B23294DC3E /* XKSLoginServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSLoginServices.m; sourceTree = "<group>"; };
+		A60C9623900FD51D219F29FA6C381392 /* XKSCommonSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKSCommonSDK-prefix.pch"; sourceTree = "<group>"; };
+		A6A9564F670D46233ED35C28C0E6B86A /* XKSHomeServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSHomeServices.m; sourceTree = "<group>"; };
+		A6E863C889DE4DB89D44F8BD23D35F22 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = "include-ios/openssl/conf_api.h"; sourceTree = "<group>"; };
+		AA3E84FDD6620D1704C671D1659CA639 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = "include-ios/openssl/crypto.h"; sourceTree = "<group>"; };
+		AACB8FCA4EECD65B46E399015F1C41C0 /* UIImage+Xkeshi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Xkeshi.h"; sourceTree = "<group>"; };
+		AB495DE7B5ED08E29816EA554938625B /* images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		AB50A8E76B0CD48467C14B41C3E93569 /* XKSBillCustomViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSBillCustomViews.h; sourceTree = "<group>"; };
+		AD5FDDC58338DA7F094A381A8909747E /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = "include-ios/openssl/e_os2.h"; sourceTree = "<group>"; };
+		AED70FE39BA75215E995BB4A35748E62 /* XKSSignater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSSignater.h; sourceTree = "<group>"; };
+		AF93BD969B5D01FBB0B6A0462361E8C4 /* XKSAlertWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSAlertWindow.h; sourceTree = "<group>"; };
+		AFAB877C28A07DBFEF28B9FB36CA623D /* XKSGoodsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSGoodsCell.h; sourceTree = "<group>"; };
+		B02735B2B04A4822B134FC852297558F /* Pods-ModuleDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModuleDemo-dummy.m"; sourceTree = "<group>"; };
+		B02EA7C1A262811E4369D0CC0E5E3DE6 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = "include-ios/openssl/modes.h"; sourceTree = "<group>"; };
+		B1A465804F2656145B66A4528F0CCF44 /* DSASignater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSASignater.h; sourceTree = "<group>"; };
+		B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B3149A9734327B99BBFA15360D865083 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = "include-ios/openssl/dsa.h"; sourceTree = "<group>"; };
+		B31E11A6C1DE8939B62ECD25D54E73D3 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = "include-ios/openssl/ecdsa.h"; sourceTree = "<group>"; };
+		B44930F57892381D322AB775B02EB684 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "include-ios/openssl/ripemd.h"; sourceTree = "<group>"; };
+		B53DF285541C5650A7C2C5330AB21179 /* SignatureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SignatureView.m; sourceTree = "<group>"; };
+		B83CB749E88FA07AC069C64FB42A0B41 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B8D209C3CF486265B70633EEB6367C34 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = "include-ios/openssl/txt_db.h"; sourceTree = "<group>"; };
+		B9896BDBEB56D904D7D8DFB31B3620D9 /* libXKSHomeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXKSHomeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC47C662F2C581BE2CA605C671191B81 /* DSASignater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSASignater.m; sourceTree = "<group>"; };
+		BC5FC8FB82351B0C05DB564713E35006 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = "include-ios/openssl/rand.h"; sourceTree = "<group>"; };
+		BCFC8582AE38AE066C2F5B9A42A03EC3 /* XKSHomeViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = XKSHomeViewController.storyboard; sourceTree = "<group>"; };
+		BD1F056668C5E0D5EEA6980F23193821 /* GoodsShelfCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoodsShelfCell.m; sourceTree = "<group>"; };
+		BD3CC9ED4BB2009D5E312E5E2F1A0BDD /* NSString+Chinese.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chinese.m"; sourceTree = "<group>"; };
+		C1F9FEFFCBF37A5B626E5221515FA685 /* images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		C23E2EFA9FB5AE6EAE75AE50C8A2B226 /* XKSHomeModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSHomeModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C430607D0A842DA2F6C2FC548A70AEAE /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = "include-ios/openssl/tls1.h"; sourceTree = "<group>"; };
+		C7F913CEC8710507299A98566DF40F70 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C9C12A8DF559AAB3FBAB82DB6FC4C00E /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = "include-ios/openssl/idea.h"; sourceTree = "<group>"; };
+		CA2E8B925D90DE46837998D39B2B5BC2 /* Pods-ModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAC80E79818CFCAD535C7ABDF5A88912 /* XKSHomeServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSHomeServices.h; sourceTree = "<group>"; };
+		CC02D082BCB88662B15F14E48F9E24C7 /* QRMaskLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QRMaskLayer.h; sourceTree = "<group>"; };
+		CE4BA9A2BBA22F447D4D2FCA60C5E626 /* XKSDeviceBindingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSDeviceBindingViewController.h; sourceTree = "<group>"; };
+		CE6123F646EFEBD3126A5B98D8A0E5B6 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "include-ios/openssl/rc4.h"; sourceTree = "<group>"; };
+		CE9077EFBFE057603C8CC3E14D21170E /* ResourceBundle-XKSCommonSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XKSCommonSDK-Info.plist"; sourceTree = "<group>"; };
+		D0399F7636DB7605C111224D75D791FB /* XKSSystemObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSSystemObj.h; sourceTree = "<group>"; };
+		D08712D8A19356039BFF81676ECB6E36 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "include-ios/openssl/des.h"; sourceTree = "<group>"; };
+		D39859D1C0C016773C92E3973C577E18 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = "include-ios/openssl/dh.h"; sourceTree = "<group>"; };
+		D4DE10A0C434ED9C2AE737989F19534A /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = "include-ios/openssl/seed.h"; sourceTree = "<group>"; };
+		D57CC438918706646E958CBD1A7B913C /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = "include-ios/openssl/kssl.h"; sourceTree = "<group>"; };
+		DA4EAB42F74DAFA2A233ECA9721B9F53 /* libPods-ModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2B4B0E024ECD210B1DAF4986B0C31 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = "include-ios/openssl/pqueue.h"; sourceTree = "<group>"; };
+		DAD82B089168FB2D83D2D5B4E07AF281 /* XKSLoginModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKSLoginModule.xcconfig; sourceTree = "<group>"; };
+		DC9D9C3711C44A824778A25161F2B44F /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5B65AA6D796062EC061DE45943126 /* XKSBillCustomViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSBillCustomViews.m; sourceTree = "<group>"; };
+		DF6424C0D19021811F7F2712D574F490 /* XKSLoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKSLoginModule-dummy.m"; sourceTree = "<group>"; };
+		DF679FA3672DD78AA057E77923DCE847 /* RSAValidater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSAValidater.h; sourceTree = "<group>"; };
+		E1F3E049A54638E00F59E748002BA541 /* SignatureViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		E20478C49259570FF8D69B6E09A07D5E /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = "include-ios/openssl/ui_compat.h"; sourceTree = "<group>"; };
+		E2C12AC4230F766DEC7E65E9804D9AE4 /* QRMaskLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QRMaskLayer.m; sourceTree = "<group>"; };
+		E32AD8AF912FE604E13690D6A398C77B /* XKSEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSEncryptor.m; sourceTree = "<group>"; };
+		EA9FDBB33EAA8FC12395E479ECCEEA5D /* XKSBillViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XKSBillViewController.m; sourceTree = "<group>"; };
+		EB4C29AB7DDAF9FCB33C1F94A425325A /* XKSLoginModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSLoginModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD9C0984643A64104C929EF6C84B317 /* GoodsShelfCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoodsShelfCell.h; sourceTree = "<group>"; };
+		EC8148E5464E8A258EDBED6184A85351 /* DSAValidater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSAValidater.m; sourceTree = "<group>"; };
+		EF04EA1AE4BCF3188BA63699B10223BC /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = "include-ios/openssl/evp.h"; sourceTree = "<group>"; };
+		F0F7D85DF0DD2CD21B25849372C5449E /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = "include-ios/openssl/dso.h"; sourceTree = "<group>"; };
+		F1D1417EA5F25DCF09FBE1FF591D5904 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "include-ios/openssl/ui.h"; sourceTree = "<group>"; };
+		F21DD27726831486A22FADC7C4223328 /* XKSSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XKSSettingViewController.h; sourceTree = "<group>"; };
+		F60AE7F9069BAEF6AA63B3DB5CAF80DD /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = "include-ios/openssl/x509.h"; sourceTree = "<group>"; };
+		F7A09F3B34ED284DC460E060F52AA3BE /* MD5Signater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MD5Signater.m; sourceTree = "<group>"; };
+		FD5FB27F1E9F45B0D0EA8B12CC252C0D /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = "include-ios/openssl/krb5_asn.h"; sourceTree = "<group>"; };
+		FD9E9F9CA4BF160E646B80A837789F33 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = "include-ios/openssl/des_old.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E76F42B7B50BD5AB01FE0D63E8A8916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F5701F4327FA2B94216E08A753ED8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E0E076E06D98CD876620C50B8C5831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064DDD6AA0A9E8C6639A9C023B640F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70801D5FD8C441B84495A30F17150FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BA63936E8A0E113E3F055EC5A1E9D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCCFA8D29C173C458115B69144E89FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4D04941BC958EA074F64302E92779D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF26B74A1A6C37A4766EBE66C49C16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85EE861E337250446426E05AE92626D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76753BF0252F37352DC3E1A47B74467E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B02AF4E43330822417A3F42A370C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A0B9B2E929FDA49EED5B310C8C6547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61225351472628DBC526B54BA55A0F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81C08F5CCC0A5FBFF4559E2173164C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D1B6F33E6229F2C9C4E039A2C3D4A /* CoreGraphics.framework in Frameworks */,
+				94FC4AE35C0F90BD510E491C20A2F830 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01360BB7BE2C65F404EC925D69A064E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70B17AF73DFB0DA39EC780620BD93FDC /* MBProgressHUD */,
+				CC091690CF04957FA3C701608217B62A /* OpenSSL-Classic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		03DDF8A18EDBDA9A6AFBF0B4D7CB99FE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */,
+				0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		056A6EADD6720850A92F1C8227853843 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A708F47421C88285AD2BD469F7F9E78 /* ResourceBundle-XKSHomeModule-Info.plist */,
+				4CEE3E10A599C65F0A0D268497001349 /* XKSHomeModule.xcconfig */,
+				5BCBF6378AE9110A9051D74B04961048 /* XKSHomeModule-dummy.m */,
+				0A70ADEAF0C6E675B7AC1E6D34F12C7F /* XKSHomeModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../MainProject/ModuleDemo/Pods/Target Support Files/XKSHomeModule";
+			sourceTree = "<group>";
+		};
+		065F978F25027391CFEA179EDD00B0A5 /* FuntionModule */ = {
+			isa = PBXGroup;
+			children = (
+				7BEFB8F2FB718BAFD4A0CDC7C5B82B73 /* AlertView */,
+				1EDB13BC89284416F228AAA3E6BD7BF1 /* Binding */,
+			);
+			path = FuntionModule;
+			sourceTree = "<group>";
+		};
+		0A47EC8DF8F147B506898589DBD75EBD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9FEFFCBF37A5B626E5221515FA685 /* images.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		14C892B562CDCE026FFA93E64B45833B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				903D9DBBE7B025A3BE1B7AF6E939CB95 /* XKSCommonResources.xcassets */,
+				065F978F25027391CFEA179EDD00B0A5 /* FuntionModule */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		1BFCCD62C0A94559C7BB79F0252F1427 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				72FE77B742EA490C1699E108E3E31DF1 /* MD5Signater.h */,
+				F7A09F3B34ED284DC460E060F52AA3BE /* MD5Signater.m */,
+				256AC3CB142E365A5DE985FDB41925E3 /* MD5Validater.h */,
+				94C0786FBCEA3A6D642AACD167C6ECE9 /* MD5Validater.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		1D1114C58868450A790BCE4352BF34C3 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				AACB8FCA4EECD65B46E399015F1C41C0 /* UIImage+Xkeshi.h */,
+				7E915F12F8F9412A3BEC29A644377889 /* UIImage+Xkeshi.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		1E1E1379BCE4E2AC2CDA145DBC5D932D /* DSA */ = {
+			isa = PBXGroup;
+			children = (
+				B1A465804F2656145B66A4528F0CCF44 /* DSASignater.h */,
+				BC47C662F2C581BE2CA605C671191B81 /* DSASignater.m */,
+				8670D56AB6442A20C803D88FABE83C9E /* DSAValidater.h */,
+				EC8148E5464E8A258EDBED6184A85351 /* DSAValidater.m */,
+			);
+			path = DSA;
+			sourceTree = "<group>";
+		};
+		1EDB13BC89284416F228AAA3E6BD7BF1 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				98F0325F88A9D5EA1014A8D5574F936A /* XKSDeviceBindingViewController.storyboard */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		22ACB51B0AF4770D299885F784292D6E /* XKSSettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				92EE77F47CABC043BF9ADDBF063983C1 /* Resources */,
+				B35CCB802F989B7B2657F3CB1D5071AB /* Support Files */,
+				43670A57CC5EDE08877DBB21B55961D0 /* XKSSettingModule */,
+			);
+			name = XKSSettingModule;
+			path = ../../../Modules/XKSSettingModule;
+			sourceTree = "<group>";
+		};
+		25AE4AB60A55F36AFA09B55B5401E6BF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB877C28A07DBFEF28B9FB36CA623D /* XKSGoodsCell.h */,
+				7069AACA283002223F6E020FC9B1E4F5 /* XKSGoodsCell.m */,
+				CAC80E79818CFCAD535C7ABDF5A88912 /* XKSHomeServices.h */,
+				A6A9564F670D46233ED35C28C0E6B86A /* XKSHomeServices.m */,
+				82D4FD05CC6CA06317E561ACA23541AE /* XKSHomeViewController.h */,
+				5AA401FD328482237B4A53A244FC6282 /* XKSHomeViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		295747A25BB641D5E57A3B80291F3501 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9C0984643A64104C929EF6C84B317 /* GoodsShelfCell.h */,
+				BD1F056668C5E0D5EEA6980F23193821 /* GoodsShelfCell.m */,
+				972DBADAAB126A5913EFA64098A36C28 /* IPConfigCell.h */,
+				81E7E2168A44C9859C31D9B59E09DC93 /* IPConfigCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D44659E4F356E50B69FFF1C5C3EA107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747A00A568C2AFF402AEF4FE4C732D6F /* libcrypto.a */,
+				23666AF87722E5A78E34114D0ED1771B /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D5496ABB8336905F83D2A8FD9174CCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E31525D8625B4543F6D5F257B36C451 /* MBProgressHUD.xcconfig */,
+				15301E760175947F78C3696C33B33403 /* MBProgressHUD-dummy.m */,
+				32B2FBA38C9FB138FE45FA6EE0F28E27 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		37369D866E0856B7F18EFD618338B398 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				46B1E348CA3B135DECBE08F33B9CB863 /* images.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3BB0E52DC1418A47E36F7E23C5C0980F /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				6D8DEF013A71B233F03F82E20FD21B82 /* XKSCommonEnumeration.h */,
+				984FC32E5ECE30B32BE9C8D829D6E4B4 /* XKSCommonErrorCode.h */,
+				213D2FA101BFCA603193789D146B2637 /* XKSCommonMacro.h */,
+				73DC5551D93CF5A2EB3302861D335059 /* XKSCommonTips.h */,
+				43331134DD1984311323ADD385E95F18 /* XKSSerializable.h */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		407124417BECB4E13902F5054FB2BF29 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4FB5DB27D183E6F1D55C9EB0F010FEF7 /* BaseSignater.h */,
+				9295B312DA945866E9291712AB1AFA52 /* BaseSignater.m */,
+				3A9B03266C6C3407A2F9517273D5DFC7 /* BaseValidater.h */,
+				9C9FC0AB3C09E67935EE792604C5F7B0 /* BaseValidater.m */,
+				AED70FE39BA75215E995BB4A35748E62 /* XKSSignater.h */,
+				02C88ED6974A59AD8031D5D39C5007C7 /* XKSValidater.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DDF8A18EDBDA9A6AFBF0B4D7CB99FE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43670A57CC5EDE08877DBB21B55961D0 /* XKSSettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				B76D13EAAC82B108EF72BC08E2656D36 /* src */,
+			);
+			path = XKSSettingModule;
+			sourceTree = "<group>";
+		};
+		4AD9A9E2A3ABC8165D69759A37A38114 /* XKSHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC50D08BB0D2BFF6C969FAE533AF18 /* Resources */,
+				056A6EADD6720850A92F1C8227853843 /* Support Files */,
+				C0C549D2E900F2AE2449285EC7116AF2 /* XKSHomeModule */,
+			);
+			name = XKSHomeModule;
+			path = ../../../Modules/XKSHomeModule;
+			sourceTree = "<group>";
+		};
+		4D044C89829731CFB67F1879CECDEA5F /* XKSHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				37369D866E0856B7F18EFD618338B398 /* images */,
+				EE14BAFED64BF95DAF0A82151CCAF004 /* src */,
+			);
+			path = XKSHomeModule;
+			sourceTree = "<group>";
+		};
+		5B1427F8CA4134E380DB33566444D3B1 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				22F96163EED60076182659CDF601650E /* RSASignater.h */,
+				9C62234C54FF4BE29E0943B7189E378B /* RSASignater.m */,
+				DF679FA3672DD78AA057E77923DCE847 /* RSAValidater.h */,
+				4702A65944019B899162B3FB32F499C8 /* RSAValidater.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		5E1EBCBFA962284F565BBF6398B46D76 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				CE4BA9A2BBA22F447D4D2FCA60C5E626 /* XKSDeviceBindingViewController.h */,
+				96DE2A311946871C63DDD21F8CECC2A7 /* XKSDeviceBindingViewController.m */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		650F1B201AA40239E2E9E34FB243279C /* XKSCommon */ = {
+			isa = PBXGroup;
+			children = (
+				FF449C0F0759C33C16F015FE98B2DD52 /* SDK */,
+			);
+			path = XKSCommon;
+			sourceTree = "<group>";
+		};
+		6C88011E2F0D21AA07AE30A75DF49686 /* XKSLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				F6A795EB68C2AF45C77F102085D86ADD /* src */,
+			);
+			path = XKSLoginModule;
+			sourceTree = "<group>";
+		};
+		70B17AF73DFB0DA39EC780620BD93FDC /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B83CB749E88FA07AC069C64FB42A0B41 /* MBProgressHUD.h */,
+				C7F913CEC8710507299A98566DF40F70 /* MBProgressHUD.m */,
+				2D5496ABB8336905F83D2A8FD9174CCC /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		733D632DE4B8F08EB693071FEC45E450 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D0399F7636DB7605C111224D75D791FB /* XKSSystemObj.h */,
+				013E52A533CBEDB00DD6D698D8E5BFA5 /* XKSSystemObj.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		78BED8E1288D90A9F29EEB265DF5952A /* XKSSettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				0A47EC8DF8F147B506898589DBD75EBD /* images */,
+				F3A6665C9F4FDC417D2A197F844A36F1 /* src */,
+			);
+			path = XKSSettingModule;
+			sourceTree = "<group>";
+		};
+		7BEFB8F2FB718BAFD4A0CDC7C5B82B73 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6A5947C1647302EBE84E46B438F52636 /* XKSAlertView.xib */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ADA01AAD9099BD7F0ECD57EF9F809602 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				01360BB7BE2C65F404EC925D69A064E8 /* Pods */,
+				F7175BDC287B24742F9AD8832DBA26D1 /* Products */,
+				CF2B0913C3663525199F7849A595CAED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5EDC5B2C4FAF3072985ED1197A01B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD14BBA2BFC5A8D5B1D4C24671A75FDC /* XKSLoginModule */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		82E6D8AFCD3060B8A1B1EE4F7849E67E /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				2528CA08E432933792306DD0F603C8CB /* SignatureView.h */,
+				B53DF285541C5650A7C2C5330AB21179 /* SignatureView.m */,
+				5A16A9917CD096885A9B78353288385E /* SignatureViewController.h */,
+				E1F3E049A54638E00F59E748002BA541 /* SignatureViewController.m */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		858C46C46F281F61950E96F25C9EE9C1 /* BluetoothList */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C058C1DDB9480A2AF60FFCB513801 /* BluetoothListViewcontroller.h */,
+				1B9AD8B61FE5D7BF4EE249B953F7825F /* BluetoothListViewcontroller.m */,
+			);
+			path = BluetoothList;
+			sourceTree = "<group>";
+		};
+		87E9842EF9992BECE4F4658C86767C3B /* XKSCommon */ = {
+			isa = PBXGroup;
+			children = (
+				14C892B562CDCE026FFA93E64B45833B /* SDK */,
+			);
+			path = XKSCommon;
+			sourceTree = "<group>";
+		};
+		8C56147CEAC82AE729C94A844A133836 /* PaperSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				25A1DE683FBBBFE9D0A8E5BCC83BFFD4 /* PaperSwitch.h */,
+				793A66D617EFA2B9ABD1A19734F57159 /* PaperSwitch.m */,
+			);
+			path = PaperSwitch;
+			sourceTree = "<group>";
+		};
+		8C8C92FE663A1119FBD6CA83F0FD5CC1 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				1E35591096C3691D22F4D03A27B9F326 /* XKSCommonFunction.h */,
+				472A173ED495DB1EE9E990C9B70DE546 /* XKSCommonFunction.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		92EE77F47CABC043BF9ADDBF063983C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78BED8E1288D90A9F29EEB265DF5952A /* XKSSettingModule */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		94B474B169D868EE9D55CE9ACF080DB6 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				CC02D082BCB88662B15F14E48F9E24C7 /* QRMaskLayer.h */,
+				E2C12AC4230F766DEC7E65E9804D9AE4 /* QRMaskLayer.m */,
+				319AAE7FBC53E07F0F7A922BFF292352 /* XKSShapeLayer.h */,
+				11A321B49CDBD577825F7DC29010DC39 /* XKSShapeLayer.m */,
+				228FED7208E8ECCC644EC1F0BECD31F5 /* XKSVideoPreviewLayer.h */,
+				2A56DC13F885E55E0F6278CFBE3FDDFE /* XKSVideoPreviewLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		9519E254CA3BEA30BDBC9E0B9C751D34 /* GlobalModule */ = {
+			isa = PBXGroup;
+			children = (
+				733D632DE4B8F08EB693071FEC45E450 /* Configuration */,
+				3BB0E52DC1418A47E36F7E23C5C0980F /* Definition */,
+			);
+			path = GlobalModule;
+			sourceTree = "<group>";
+		};
+		95C199370C0B78E0466B79628F91F413 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87E9842EF9992BECE4F4658C86767C3B /* XKSCommon */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9954A1DDFDB6118CB8CAD7762F4E2CEC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				6D1728AC73A29B234E15DCCB34F0A4E9 /* UIView+Corner.h */,
+				91A19181A18F218CF7AFE260BA14C7D2 /* UIView+Corner.m */,
+				38E15D786B0FD1D15DC499F39F0BEF5B /* UIView+Frame.h */,
+				4C875B88B79C9D6D116002BB8E03C3DA /* UIView+Frame.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		9BAA1BAE5EB793F48CC14BF6DEB3D26A /* AssistantModule */ = {
+			isa = PBXGroup;
+			children = (
+				D862AA04EC3D31FAE681A9715E783370 /* Categroy */,
+				8C8C92FE663A1119FBD6CA83F0FD5CC1 /* Function */,
+				D84BFE9D6BB858AF408420899AE78E5B /* NetWorking */,
+			);
+			path = AssistantModule;
+			sourceTree = "<group>";
+		};
+		9CA22044DBCEC704488AA424809B0D64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3902EDA5BD2285E81CB59CBE319A3 /* ResourceBundle-XKSLoginModule-Info.plist */,
+				DAD82B089168FB2D83D2D5B4E07AF281 /* XKSLoginModule.xcconfig */,
+				DF6424C0D19021811F7F2712D574F490 /* XKSLoginModule-dummy.m */,
+				7F3A7F5AC3E8572BECD9A2E5A4C299C1 /* XKSLoginModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../MainProject/ModuleDemo/Pods/Target Support Files/XKSLoginModule";
+			sourceTree = "<group>";
+		};
+		A63785E14D51776481D840C745F6D8FA /* PluginModule */ = {
+			isa = PBXGroup;
+			children = (
+				94B474B169D868EE9D55CE9ACF080DB6 /* Layer */,
+			);
+			path = PluginModule;
+			sourceTree = "<group>";
+		};
+		AD14BBA2BFC5A8D5B1D4C24671A75FDC /* XKSLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				DDD637075625708587779E568E81B00A /* images */,
+				EA2693143021DF2067569732DD55052E /* src */,
+			);
+			path = XKSLoginModule;
+			sourceTree = "<group>";
+		};
+		ADA01AAD9099BD7F0ECD57EF9F809602 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB3CAC439BAF550BEC55DB86D7D4A8B5 /* XKSCommonSDK */,
+				4AD9A9E2A3ABC8165D69759A37A38114 /* XKSHomeModule */,
+				CE7C68CDFAAE36953E4D77AAFC2820B2 /* XKSLoginModule */,
+				22ACB51B0AF4770D299885F784292D6E /* XKSSettingModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B35CCB802F989B7B2657F3CB1D5071AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E50F0FE86A49774D39ADA97BC394627 /* ResourceBundle-XKSSettingModule-Info.plist */,
+				47DFC076E1E116D0BD10D4AEDB41DEA3 /* XKSSettingModule.xcconfig */,
+				8525404E011A4C84A606F0D8E2907336 /* XKSSettingModule-dummy.m */,
+				21A62423BB0B4C00648CA980C7E4B22B /* XKSSettingModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../MainProject/ModuleDemo/Pods/Target Support Files/XKSSettingModule";
+			sourceTree = "<group>";
+		};
+		B76D13EAAC82B108EF72BC08E2656D36 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				01BCFA249C82C51F7CB2E606B4A28EE7 /* XKSGlobalSetting.h */,
+				12E5DF42056B53F645B33DE1CB2A6D7F /* XKSGlobalSetting.m */,
+				6ACFD89F02943537E3684781109624B3 /* XKSSettingServices.h */,
+				066CF963CEA37F2AA6B93AFB7DB0797F /* XKSSettingServices.m */,
+				F21DD27726831486A22FADC7C4223328 /* XKSSettingViewController.h */,
+				72A46C883C6E8B1EECF85E0977F650E4 /* XKSSettingViewController.m */,
+				295747A25BB641D5E57A3B80291F3501 /* view */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C0C549D2E900F2AE2449285EC7116AF2 /* XKSHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				25AE4AB60A55F36AFA09B55B5401E6BF /* src */,
+			);
+			path = XKSHomeModule;
+			sourceTree = "<group>";
+		};
+		CBB2AD0897D75B2CD4B300B40DA9B06A /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				AF93BD969B5D01FBB0B6A0462361E8C4 /* XKSAlertWindow.h */,
+				A10F511902FD924A64FA14EDAC94C978 /* XKSAlertWindow.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		CC091690CF04957FA3C701608217B62A /* OpenSSL-Classic */ = {
+			isa = PBXGroup;
+			children = (
+				6A0CC7028751ED86404E8B5B90FF8ED1 /* aes.h */,
+				62CFDD14322CDEA492E1C7D9CB17BE00 /* asn1.h */,
+				6F93E4D1484847E23198E2AFF9BAAD47 /* asn1_mac.h */,
+				27CFD806E15E9641390B95C060F2EC21 /* asn1t.h */,
+				37C4CDC006F1CABD0D8F3A39FF1EBA0A /* bio.h */,
+				78B20480E6D6CCCA3755E8804F754919 /* blowfish.h */,
+				5F86965BE84FF9D5165717810B44A990 /* bn.h */,
+				9CA04EDEB410DEF60F9C3975888CE63D /* buffer.h */,
+				58230425BB3E8D546357D796821A2ECC /* camellia.h */,
+				15C3F5C6A16FF9252890C70FA51F3C4D /* cast.h */,
+				61B50D6ADD52A33108AB77782A922762 /* cmac.h */,
+				A373F4EBEC8524A9EEC2699A61256307 /* cms.h */,
+				11B06DFD7C7918EB848261612AE8070D /* comp.h */,
+				50677A345B0F7DA7B01D29B875F654D1 /* conf.h */,
+				A6E863C889DE4DB89D44F8BD23D35F22 /* conf_api.h */,
+				AA3E84FDD6620D1704C671D1659CA639 /* crypto.h */,
+				D08712D8A19356039BFF81676ECB6E36 /* des.h */,
+				FD9E9F9CA4BF160E646B80A837789F33 /* des_old.h */,
+				D39859D1C0C016773C92E3973C577E18 /* dh.h */,
+				B3149A9734327B99BBFA15360D865083 /* dsa.h */,
+				F0F7D85DF0DD2CD21B25849372C5449E /* dso.h */,
+				463166B815A2FC2E53CF431592463B5C /* dtls1.h */,
+				AD5FDDC58338DA7F094A381A8909747E /* e_os2.h */,
+				58BCE185E89082CA2614F82AEBD693E8 /* ebcdic.h */,
+				0B46ECC0F6C133DED98CA42FC9945B18 /* ec.h */,
+				21B35B1E3D0735FEEB377FECCFE61F58 /* ecdh.h */,
+				B31E11A6C1DE8939B62ECD25D54E73D3 /* ecdsa.h */,
+				18750C42D2471291208E10458D78AAAE /* engine.h */,
+				72D4F79994E7BFA7ED0E3F94C2FEB73E /* err.h */,
+				EF04EA1AE4BCF3188BA63699B10223BC /* evp.h */,
+				06368BB4771C7BA6CBE41829BD00E8AC /* hmac.h */,
+				C9C12A8DF559AAB3FBAB82DB6FC4C00E /* idea.h */,
+				FD5FB27F1E9F45B0D0EA8B12CC252C0D /* krb5_asn.h */,
+				D57CC438918706646E958CBD1A7B913C /* kssl.h */,
+				6A87B4099050067846D6F45ED6C69307 /* lhash.h */,
+				83A6139167E60ED034CC297D6A066395 /* md4.h */,
+				8473D42EA0EC7595464EA0C63EDC767F /* md5.h */,
+				714EA8394A71C650B80627F4C69174A0 /* mdc2.h */,
+				B02EA7C1A262811E4369D0CC0E5E3DE6 /* modes.h */,
+				06A0242B29F5FCD3902505A30BEA4A25 /* obj_mac.h */,
+				79CB6802F9F4681ABD75716319745475 /* objects.h */,
+				50CB7B843A8E929C5AFCED5DF8D16430 /* ocsp.h */,
+				447785BA5E5D7B06E7A65D86A3925A4D /* opensslconf.h */,
+				0900FE64159B280FC7D61C8354E2AB8A /* opensslv.h */,
+				0325A699971CA1FDABF10BAE517DE4B7 /* ossl_typ.h */,
+				887C81FBDB3DEF410628F747BD1DFEDA /* pem.h */,
+				1307C48A1854454E9B2338D473EFEBF8 /* pem2.h */,
+				71316007B094B28BA00A5468A467C077 /* pkcs12.h */,
+				9FD5EC1D96C6300791A072304636D743 /* pkcs7.h */,
+				DAA2B4B0E024ECD210B1DAF4986B0C31 /* pqueue.h */,
+				BC5FC8FB82351B0C05DB564713E35006 /* rand.h */,
+				241A6EBD0EE53C45EB12618266EB4A17 /* rc2.h */,
+				CE6123F646EFEBD3126A5B98D8A0E5B6 /* rc4.h */,
+				B44930F57892381D322AB775B02EB684 /* ripemd.h */,
+				1C52F1B876C32133CDDFD2FEC736E4AA /* rsa.h */,
+				9D9211EC88368DFCB80953932052A5E1 /* safestack.h */,
+				D4DE10A0C434ED9C2AE737989F19534A /* seed.h */,
+				38AAC50B765F1BB9D0BD45C670E2DE81 /* sha.h */,
+				075D1F945B55C8E61DD97B4C1662E05A /* srp.h */,
+				1045FE8E13A31C6F135CE0F5C95A374D /* srtp.h */,
+				0E2F95286DE7F9045C62233725D12EB8 /* ssl.h */,
+				8FEC25E75544324F1946A312BD7F904E /* ssl2.h */,
+				09FB9B55014FA67A98B6692DBB4F05F9 /* ssl23.h */,
+				549B5E8DE5CFC8EE75EDD7CA6222265D /* ssl3.h */,
+				74AA45B8963C8EDEDE3D4BF31A499331 /* stack.h */,
+				7455D8997F492B6118DEEC00E77E0214 /* symhacks.h */,
+				C430607D0A842DA2F6C2FC548A70AEAE /* tls1.h */,
+				7A7C63B4B83028742E62CA459F9E6DA4 /* ts.h */,
+				B8D209C3CF486265B70633EEB6367C34 /* txt_db.h */,
+				F1D1417EA5F25DCF09FBE1FF591D5904 /* ui.h */,
+				E20478C49259570FF8D69B6E09A07D5E /* ui_compat.h */,
+				51BC635514D9B824668A1F061C3AA8B2 /* whrlpool.h */,
+				F60AE7F9069BAEF6AA63B3DB5CAF80DD /* x509.h */,
+				5A60EB12D4B031C1084D79D0FA31F0B0 /* x509_vfy.h */,
+				8F8B149938E60B2D1BA7A299725B7CEB /* x509v3.h */,
+				2D44659E4F356E50B69FFF1C5C3EA107 /* Frameworks */,
+			);
+			path = "OpenSSL-Classic";
+			sourceTree = "<group>";
+		};
+		CCC57A35A9AD777C9A2227189BFF4A54 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				1E1E1379BCE4E2AC2CDA145DBC5D932D /* DSA */,
+				1BFCCD62C0A94559C7BB79F0252F1427 /* MD5 */,
+				5B1427F8CA4134E380DB33566444D3B1 /* RSA */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		CDF22271FF59C26B0A21FB58705505E5 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				78C79DC09DA43201D477597924017DD9 /* NSString+Chinese.h */,
+				BD3CC9ED4BB2009D5E312E5E2F1A0BDD /* NSString+Chinese.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		CE7C68CDFAAE36953E4D77AAFC2820B2 /* XKSLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EDC5B2C4FAF3072985ED1197A01B4 /* Resources */,
+				9CA22044DBCEC704488AA424809B0D64 /* Support Files */,
+				6C88011E2F0D21AA07AE30A75DF49686 /* XKSLoginModule */,
+			);
+			name = XKSLoginModule;
+			path = ../../../Modules/XKSLoginModule;
+			sourceTree = "<group>";
+		};
+		CF2B0913C3663525199F7849A595CAED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA6D222689C36120D5DA30F54DF27CDF /* Pods-ModuleDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D20006AFDF11AB8E9191D7519A3FEB39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9077EFBFE057603C8CC3E14D21170E /* ResourceBundle-XKSCommonSDK-Info.plist */,
+				20435DBD5757471E3455DEE8A38C50F5 /* XKSCommonSDK.xcconfig */,
+				8D9012B37B8B557CEC84567A66D81010 /* XKSCommonSDK-dummy.m */,
+				A60C9623900FD51D219F29FA6C381392 /* XKSCommonSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../MainProject/ModuleDemo/Pods/Target Support Files/XKSCommonSDK";
+			sourceTree = "<group>";
+		};
+		D6EC50D08BB0D2BFF6C969FAE533AF18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D044C89829731CFB67F1879CECDEA5F /* XKSHomeModule */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D84BFE9D6BB858AF408420899AE78E5B /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				43357156BB1BEDF34436F1A5F146B2F4 /* XKSNetworking.h */,
+				6FC31E7AB6AB6315873F37BD5B52DD3C /* XKSNetworking.m */,
+				731E15F75EB74A130F0C5339E5A1570D /* XKSRequestParameter.h */,
+				A2FD2F19762B1B53537239E36E1F908F /* XKSRequestParameter.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		D862AA04EC3D31FAE681A9715E783370 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				CDF22271FF59C26B0A21FB58705505E5 /* NSString */,
+				1D1114C58868450A790BCE4352BF34C3 /* UIImage */,
+				9954A1DDFDB6118CB8CAD7762F4E2CEC /* UIView */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		DDD637075625708587779E568E81B00A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AB495DE7B5ED08E29816EA554938625B /* images.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		DE1AA0002A7ED0353F5A266FDA9F00B9 /* FuntionModule */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2AD0897D75B2CD4B300B40DA9B06A /* AlertView */,
+				FF31276DA5E41644DEA21F22E5F27680 /* BillView */,
+				5E1EBCBFA962284F565BBF6398B46D76 /* Binding */,
+				858C46C46F281F61950E96F25C9EE9C1 /* BluetoothList */,
+				DECBDD2246B880796151D453B7694B18 /* Encrypt */,
+				8C56147CEAC82AE729C94A844A133836 /* PaperSwitch */,
+				FFC7CBB185ACAB7B17CD7A17322E9C78 /* QRCode */,
+				82E6D8AFCD3060B8A1B1EE4F7849E67E /* Signature */,
+			);
+			path = FuntionModule;
+			sourceTree = "<group>";
+		};
+		DECBDD2246B880796151D453B7694B18 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				032CB65E85AE80C0601D18733FA2D179 /* XKSEncryptor.h */,
+				E32AD8AF912FE604E13690D6A398C77B /* XKSEncryptor.m */,
+				407124417BECB4E13902F5054FB2BF29 /* Base */,
+				CCC57A35A9AD777C9A2227189BFF4A54 /* Impl */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		EA2693143021DF2067569732DD55052E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				186E855F5ACF4FB925B9E1210C0CEB15 /* XKSLoginViewController.storyboard */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EA6D222689C36120D5DA30F54DF27CDF /* Pods-ModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E8B925D90DE46837998D39B2B5BC2 /* Pods-ModuleDemo-acknowledgements.markdown */,
+				0D7A95C0E039D9161EAE2892A078D3EB /* Pods-ModuleDemo-acknowledgements.plist */,
+				B02735B2B04A4822B134FC852297558F /* Pods-ModuleDemo-dummy.m */,
+				4BD27454B4B8B61EE13C8D7D1365B244 /* Pods-ModuleDemo-frameworks.sh */,
+				8C2EC3E2334E660A20E519AEAABFC05A /* Pods-ModuleDemo-resources.sh */,
+				1E155DC135849BA57A65B5409BB87352 /* Pods-ModuleDemo.debug.xcconfig */,
+				59B33AFB438CA6ECFB088A6A018C2B5A /* Pods-ModuleDemo.release.xcconfig */,
+			);
+			name = "Pods-ModuleDemo";
+			path = "Target Support Files/Pods-ModuleDemo";
+			sourceTree = "<group>";
+		};
+		EB3CAC439BAF550BEC55DB86D7D4A8B5 /* XKSCommonSDK */ = {
+			isa = PBXGroup;
+			children = (
+				95C199370C0B78E0466B79628F91F413 /* Resources */,
+				D20006AFDF11AB8E9191D7519A3FEB39 /* Support Files */,
+				650F1B201AA40239E2E9E34FB243279C /* XKSCommon */,
+			);
+			name = XKSCommonSDK;
+			path = ../../../Modules/XKSCommonSDK;
+			sourceTree = "<group>";
+		};
+		EE14BAFED64BF95DAF0A82151CCAF004 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC8582AE38AE066C2F5B9A42A03EC3 /* XKSHomeViewController.storyboard */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F3A6665C9F4FDC417D2A197F844A36F1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				20D602DBFC0E746F0B71180BA0E57510 /* XKSSettingViewController.storyboard */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F6A795EB68C2AF45C77F102085D86ADD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				223081D93658E51CE07AB707384319B4 /* XKSLoginServices.h */,
+				A607B1DF44C1728445FAF3B23294DC3E /* XKSLoginServices.m */,
+				4AEE4DB1DAF3DFE9D8CF33D47FFC84C8 /* XKSLoginViewController.h */,
+				751603562137DE55D55AFB7F9D22CAB1 /* XKSLoginViewController.m */,
+				7E74E104669E1DEADBD636C6572AEB3C /* XKSOperator.h */,
+				5C2B4581AEB80670B0EBE2B85015040F /* XKSOperator.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F7175BDC287B24742F9AD8832DBA26D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D9C3711C44A824778A25161F2B44F /* libMBProgressHUD.a */,
+				DA4EAB42F74DAFA2A233ECA9721B9F53 /* libPods-ModuleDemo.a */,
+				363F1D1D18108943C2C715A39CF5B966 /* libXKSCommonSDK.a */,
+				B9896BDBEB56D904D7D8DFB31B3620D9 /* libXKSHomeModule.a */,
+				0D92A58D753BABB05758FA60847649C6 /* libXKSLoginModule.a */,
+				9DC2EC86919EA46DDDBD8EF757B2F7A7 /* libXKSSettingModule.a */,
+				4D4443ADE8DC13BE359A28C401F17E93 /* XKSCommonSDK.bundle */,
+				C23E2EFA9FB5AE6EAE75AE50C8A2B226 /* XKSHomeModule.bundle */,
+				EB4C29AB7DDAF9FCB33C1F94A425325A /* XKSLoginModule.bundle */,
+				A209AB646891F4115847BB2464CE6369 /* XKSSettingModule.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF31276DA5E41644DEA21F22E5F27680 /* BillView */ = {
+			isa = PBXGroup;
+			children = (
+				AB50A8E76B0CD48467C14B41C3E93569 /* XKSBillCustomViews.h */,
+				DDA5B65AA6D796062EC061DE45943126 /* XKSBillCustomViews.m */,
+				973912B1E1CB614FF25F89C85E3CCBE0 /* XKSBillViewController.h */,
+				EA9FDBB33EAA8FC12395E479ECCEEA5D /* XKSBillViewController.m */,
+			);
+			path = BillView;
+			sourceTree = "<group>";
+		};
+		FF449C0F0759C33C16F015FE98B2DD52 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				77B151713F0E203479A672C62775CB67 /* XKSCommonSDK.h */,
+				9BAA1BAE5EB793F48CC14BF6DEB3D26A /* AssistantModule */,
+				DE1AA0002A7ED0353F5A266FDA9F00B9 /* FuntionModule */,
+				9519E254CA3BEA30BDBC9E0B9C751D34 /* GlobalModule */,
+				A63785E14D51776481D840C745F6D8FA /* PluginModule */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		FFC7CBB185ACAB7B17CD7A17322E9C78 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				4D6AF2DEB0E55A137C47B1A1CB6C5822 /* QRCodeView.h */,
+				22673C7923E52AAB92DEF93C71CA0BCD /* QRCodeView.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0598E334B67D9C4201502A094F0B2AB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08994B0A83389DA10F2970F6C57BDFE2 /* XKSGoodsCell.h in Headers */,
+				7CB3F2CDFE4944F16BD02B87AF3A2AFD /* XKSHomeServices.h in Headers */,
+				89611A4A6B70927D54DE365742872377 /* XKSHomeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2A20F408668E26CED7407CD2DF1610 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A5270F7C413DA8AAD2EB4B569B7918 /* XKSLoginServices.h in Headers */,
+				00DA04423F04CDC1500F4A10766545C1 /* XKSLoginViewController.h in Headers */,
+				2D4E149F440E42D196BB918B3241C15F /* XKSOperator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B7B38A23CE90B0A74046C7EAB625F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834A12788B173FD15B41AB27092EE358 /* BaseSignater.h in Headers */,
+				11F77CDA1739B2296EADD76EF9CEA7BD /* BaseValidater.h in Headers */,
+				370E91890C8B3A52B44232686F36ED9A /* BluetoothListViewcontroller.h in Headers */,
+				8E95516E3C49D95E37F31C1447CFBDC8 /* DSASignater.h in Headers */,
+				1636DEEF4B8763F036DB08A5BA2D5949 /* DSAValidater.h in Headers */,
+				C9F5127758E91A4B4548634BE5BCC0A7 /* MD5Signater.h in Headers */,
+				9C7586D6A66433D0415D00144774346A /* MD5Validater.h in Headers */,
+				630CE1B6C390C0FDF676ABD50DEA20AB /* NSString+Chinese.h in Headers */,
+				C45A7DA30897F93420C2CD9F95BD47DA /* PaperSwitch.h in Headers */,
+				FF2879496771A1A299B8C18E49CDE4F6 /* QRCodeView.h in Headers */,
+				9F601D78B6CDF6FB2EE801A970DB234E /* QRMaskLayer.h in Headers */,
+				1E87BAC2CBCFCDE2DBB1FCE60EB9666A /* RSASignater.h in Headers */,
+				5263F438CE3670492C39B735DC85A257 /* RSAValidater.h in Headers */,
+				B5097414A24B3E770B7B4909690BECA4 /* SignatureView.h in Headers */,
+				221845FAD2B5A194B4BF8EA8D289B7A3 /* SignatureViewController.h in Headers */,
+				38FE84973A4A20D518C017EC0DFF2868 /* UIImage+Xkeshi.h in Headers */,
+				522469E4059DF3B7A7FF98B39BEF8BF9 /* UIView+Corner.h in Headers */,
+				842F7B1F30C821F04467CD4C524A4698 /* UIView+Frame.h in Headers */,
+				2F4C250D13757B469FFF3950FC49CAA7 /* XKSAlertWindow.h in Headers */,
+				C90AE1863854232F075EEF2B66E8A678 /* XKSBillCustomViews.h in Headers */,
+				9378AC76D9D0C9248A89816F784CA417 /* XKSBillViewController.h in Headers */,
+				FC730D6732EA522C08C5E3A88DC188D5 /* XKSCommonEnumeration.h in Headers */,
+				59077E66BD7842DA1BFB78F4B1A8AB8A /* XKSCommonErrorCode.h in Headers */,
+				F3E40A52D8F31769534DF608D58E6275 /* XKSCommonFunction.h in Headers */,
+				DF4424212A8265229D21C480F5A179AE /* XKSCommonMacro.h in Headers */,
+				9AB1E7FDCCB09BCA36A414230C76444B /* XKSCommonSDK.h in Headers */,
+				E245D92AA918BD9CDC949A75C376B4C7 /* XKSCommonTips.h in Headers */,
+				0310FCF79B683DDF615B0A996A374737 /* XKSDeviceBindingViewController.h in Headers */,
+				9251D823C9187CBD82953FA3F5FE21F2 /* XKSEncryptor.h in Headers */,
+				A72B1AF12753E9FFAC3B6D565B814A35 /* XKSNetworking.h in Headers */,
+				BD49808AB047FD34418CAB95F9F35B10 /* XKSRequestParameter.h in Headers */,
+				AF6FA4AAEB6D3B174CAB0249E6259ABD /* XKSSerializable.h in Headers */,
+				93AE3400573CA49B0F85B2AAB0696E51 /* XKSShapeLayer.h in Headers */,
+				C9B3C5361759B40762705444699F233B /* XKSSignater.h in Headers */,
+				1C200AB66204109885683C877B2CE917 /* XKSSystemObj.h in Headers */,
+				481A0088A605E8EDD8EF515942121D94 /* XKSValidater.h in Headers */,
+				6DEAE195BEC802EA7AD6EFBEB38A10E9 /* XKSVideoPreviewLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA184C62CFE9A0257D4599D5CCE82617 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C833226B90D0FB9EBA515CA2B0CD2F70 /* GoodsShelfCell.h in Headers */,
+				FFFC9580CEE877377FF2FFC13A9CC809 /* IPConfigCell.h in Headers */,
+				CB395E50A33CB1452713B7128492DE0A /* XKSGlobalSetting.h in Headers */,
+				C166B80CBDDD40C0A49634EDB0F3ABE1 /* XKSSettingServices.h in Headers */,
+				2AD772AFF9CE02D18426FFDC9A1F33FE /* XKSSettingViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1C003613925663F17E023C73AF519C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB4F27B76513AE918BA5AE0868E87C8 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		123C32609F3EF8D0BB83AEFA1642E6A4 /* XKSSettingModule-XKSSettingModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8FF2E21BA0B2A516B390E4AFAE680A /* Build configuration list for PBXNativeTarget "XKSSettingModule-XKSSettingModule" */;
+			buildPhases = (
+				D3E6F49DA1CB949DC50FBAEB38C6FCE2 /* Sources */,
+				2064DDD6AA0A9E8C6639A9C023B640F8 /* Frameworks */,
+				253F68A9F7569994AAF4D122398BFDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XKSSettingModule-XKSSettingModule";
+			productName = "XKSSettingModule-XKSSettingModule";
+			productReference = A209AB646891F4115847BB2464CE6369 /* XKSSettingModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1C1B8635136D38C6D845EDC6B4C44011 /* XKSLoginModule-XKSLoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAA44F2D89C124F6A5BF9338B601FBB /* Build configuration list for PBXNativeTarget "XKSLoginModule-XKSLoginModule" */;
+			buildPhases = (
+				54D2E29763BFF711646B02E25C1393AE /* Sources */,
+				11E0E076E06D98CD876620C50B8C5831 /* Frameworks */,
+				036866C5D56B06EDEE2DE378DD1D22A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XKSLoginModule-XKSLoginModule";
+			productName = "XKSLoginModule-XKSLoginModule";
+			productReference = EB4C29AB7DDAF9FCB33C1F94A425325A /* XKSLoginModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		43CAF3D8688B139FEB9CF4C821150AAC /* Pods-ModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDBB5215707506374C4AA2597F82F7 /* Build configuration list for PBXNativeTarget "Pods-ModuleDemo" */;
+			buildPhases = (
+				BA1BD825D22ABE99A489F24BF90C098C /* Sources */,
+				70801D5FD8C441B84495A30F17150FF2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333CD63964409C394DFD9D684227AF8D /* PBXTargetDependency */,
+				05DFDAD7EC1D206B8F2E1BC52F1A89EF /* PBXTargetDependency */,
+				571426D940C2C338AEDB84D256F4902A /* PBXTargetDependency */,
+				6779236D1C0C28E4192B197A78533CC2 /* PBXTargetDependency */,
+				30E312EC26B88C394B3487CDDC3D2F41 /* PBXTargetDependency */,
+			);
+			name = "Pods-ModuleDemo";
+			productName = "Pods-ModuleDemo";
+			productReference = DA4EAB42F74DAFA2A233ECA9721B9F53 /* libPods-ModuleDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		666038BD441721E5EEB096EB47F5ABF1 /* XKSHomeModule-XKSHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF1CD19EC72052A95544BD4080F7D12 /* Build configuration list for PBXNativeTarget "XKSHomeModule-XKSHomeModule" */;
+			buildPhases = (
+				23496B1BAF062F7F72165180402A6F7E /* Sources */,
+				DE1B02AF4E43330822417A3F42A370C7 /* Frameworks */,
+				E88CFF3D94E1A61D2656880D3B6A6CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XKSHomeModule-XKSHomeModule";
+			productName = "XKSHomeModule-XKSHomeModule";
+			productReference = C23E2EFA9FB5AE6EAE75AE50C8A2B226 /* XKSHomeModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		66E840912AED238862E908A1E641AC65 /* XKSCommonSDK-XKSCommonSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0167E49DFA51E526393D08D802C20C9B /* Build configuration list for PBXNativeTarget "XKSCommonSDK-XKSCommonSDK" */;
+			buildPhases = (
+				7E7338149A20B8BB0F5B0890C737C0FC /* Sources */,
+				7CCCFA8D29C173C458115B69144E89FA /* Frameworks */,
+				9233D866871AAECE91A1E497B2B33E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XKSCommonSDK-XKSCommonSDK";
+			productName = "XKSCommonSDK-XKSCommonSDK";
+			productReference = 4D4443ADE8DC13BE359A28C401F17E93 /* XKSCommonSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6D3AC04916726D20F92A2F5B4658A079 /* XKSCommonSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556088E47808797C524D57D2FC56989A /* Build configuration list for PBXNativeTarget "XKSCommonSDK" */;
+			buildPhases = (
+				5143AC20D223BCCF998C8E6B19E7E4A0 /* Sources */,
+				AE4D04941BC958EA074F64302E92779D /* Frameworks */,
+				C8B7B38A23CE90B0A74046C7EAB625F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EB6041F22C2FDE661803E6F63B1522 /* PBXTargetDependency */,
+			);
+			name = XKSCommonSDK;
+			productName = XKSCommonSDK;
+			productReference = 363F1D1D18108943C2C715A39CF5B966 /* libXKSCommonSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		935ACEC7D2C57102D53890BAF0ADB43B /* XKSLoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B30EE21B5DC88749D35626B129DB7C /* Build configuration list for PBXNativeTarget "XKSLoginModule" */;
+			buildPhases = (
+				24406BE5582236ED0586670ED14D7A2E /* Sources */,
+				C85EE861E337250446426E05AE92626D /* Frameworks */,
+				2A2A20F408668E26CED7407CD2DF1610 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3856C884467FEF154D2D56971A5179A4 /* PBXTargetDependency */,
+				E15F7A1506434E025027C7C4C8BDA863 /* PBXTargetDependency */,
+			);
+			name = XKSLoginModule;
+			productName = XKSLoginModule;
+			productReference = 0D92A58D753BABB05758FA60847649C6 /* libXKSLoginModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0F9052554685E800A5423FE95258BF7 /* XKSHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374865B277F0E6A9BF7D1588A471F985 /* Build configuration list for PBXNativeTarget "XKSHomeModule" */;
+			buildPhases = (
+				C6C2C64A339C1F77F535B28B84791493 /* Sources */,
+				E7A0B9B2E929FDA49EED5B310C8C6547 /* Frameworks */,
+				0598E334B67D9C4201502A094F0B2AB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACFA621FFBB52BDF25EE74D9C8900E2 /* PBXTargetDependency */,
+			);
+			name = XKSHomeModule;
+			productName = XKSHomeModule;
+			productReference = B9896BDBEB56D904D7D8DFB31B3620D9 /* libXKSHomeModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAB85150DDCCCC57A6793217CEF47664 /* XKSSettingModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075D165AD2785782C4962DF9BE723D57 /* Build configuration list for PBXNativeTarget "XKSSettingModule" */;
+			buildPhases = (
+				518ABBD47B4BF89B752356F1E4D3DB9B /* Sources */,
+				0E76F42B7B50BD5AB01FE0D63E8A8916 /* Frameworks */,
+				DA184C62CFE9A0257D4599D5CCE82617 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C8E0FBCF2E16277AA1AD0D35B833935 /* PBXTargetDependency */,
+			);
+			name = XKSSettingModule;
+			productName = XKSSettingModule;
+			productReference = 9DC2EC86919EA46DDDBD8EF757B2F7A7 /* libXKSSettingModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F5671C4613023EE94A2E62DA06031D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				098439AB598DDF1AF51146A2E3E2E562 /* Sources */,
+				E81C08F5CCC0A5FBFF4559E2173164C7 /* Frameworks */,
+				EF1C003613925663F17E023C73AF519C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = DC9D9C3711C44A824778A25161F2B44F /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F7175BDC287B24742F9AD8832DBA26D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */,
+				43CAF3D8688B139FEB9CF4C821150AAC /* Pods-ModuleDemo */,
+				6D3AC04916726D20F92A2F5B4658A079 /* XKSCommonSDK */,
+				66E840912AED238862E908A1E641AC65 /* XKSCommonSDK-XKSCommonSDK */,
+				D0F9052554685E800A5423FE95258BF7 /* XKSHomeModule */,
+				666038BD441721E5EEB096EB47F5ABF1 /* XKSHomeModule-XKSHomeModule */,
+				935ACEC7D2C57102D53890BAF0ADB43B /* XKSLoginModule */,
+				1C1B8635136D38C6D845EDC6B4C44011 /* XKSLoginModule-XKSLoginModule */,
+				FAB85150DDCCCC57A6793217CEF47664 /* XKSSettingModule */,
+				123C32609F3EF8D0BB83AEFA1642E6A4 /* XKSSettingModule-XKSSettingModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036866C5D56B06EDEE2DE378DD1D22A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AA74FBB6C707FBE82C42E2DAA010F7 /* images.xcassets in Resources */,
+				517D0AE221F1DDE32F7D7F98FBDC694A /* XKSLoginViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253F68A9F7569994AAF4D122398BFDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B19BE56B5A749825A8C561996D098F /* images.xcassets in Resources */,
+				92693503A79E6411BD35CB2466DE0853 /* XKSSettingViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9233D866871AAECE91A1E497B2B33E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BCFA3F8AC19AED00600FB79EE4799C /* XKSAlertView.xib in Resources */,
+				539400B6700F070080660A7DB0336F86 /* XKSCommonResources.xcassets in Resources */,
+				DA37C7D388170FF50F3F5F31C50A3DD7 /* XKSDeviceBindingViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88CFF3D94E1A61D2656880D3B6A6CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CB147B06160F3633F0BE3746A1DBA /* images.xcassets in Resources */,
+				AA5925379E47AD8403166722604157F3 /* XKSHomeViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098439AB598DDF1AF51146A2E3E2E562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC214077677D4F02E03C6C85F774E028 /* MBProgressHUD-dummy.m in Sources */,
+				82FC12F67E83874B93592218E9FB4CA0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23496B1BAF062F7F72165180402A6F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24406BE5582236ED0586670ED14D7A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA231E63C05DA486AD13E5EFA446B34 /* XKSLoginModule-dummy.m in Sources */,
+				092F9C79136EFA36474BE12BD6F7231B /* XKSLoginServices.m in Sources */,
+				A44C5D875A0283DAFD8BD6F89B337DED /* XKSLoginViewController.m in Sources */,
+				AABCB7606A5AA13C796FE7DD0E0F4D20 /* XKSOperator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5143AC20D223BCCF998C8E6B19E7E4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB1BA8C9262FFCBD14DCF61AE4EA082 /* BaseSignater.m in Sources */,
+				9845EB7BF12FBCDE4149F8B8C0C87F04 /* BaseValidater.m in Sources */,
+				97EF78253055D8D77AA4540D4CE810E9 /* BluetoothListViewcontroller.m in Sources */,
+				BC102E6A0837AE690C0EE7F1C9FF81B1 /* DSASignater.m in Sources */,
+				9AA1C94F7B41847F5FEA8A9A8BD12571 /* DSAValidater.m in Sources */,
+				1785DCFD02A82505647C7DF4EF2B02AC /* MD5Signater.m in Sources */,
+				631146F3710D9BEE3864F208DA0BF3E4 /* MD5Validater.m in Sources */,
+				269DFEBE7BDB1AC5F4EA7859D9148FC0 /* NSString+Chinese.m in Sources */,
+				B81193C8A037F68E71FAB5BDE3909752 /* PaperSwitch.m in Sources */,
+				34527C5D5EF97476E700C7DD721B7810 /* QRCodeView.m in Sources */,
+				EF6867DC4FDCD740AF09928FE7773B28 /* QRMaskLayer.m in Sources */,
+				8263B1E44FC0CCE944C5486F40D32A6A /* RSASignater.m in Sources */,
+				11A91B8CEE676E91F593D911BC1C4BAA /* RSAValidater.m in Sources */,
+				37FE31D954BF67947F8513651E88093B /* SignatureView.m in Sources */,
+				CB5B147B4B1669E8E6329BA368E95BB3 /* SignatureViewController.m in Sources */,
+				FB8C7093610ADF3586BB3C7A9CE158E9 /* UIImage+Xkeshi.m in Sources */,
+				F7A60E227CFA777E8CE0E4AF0C223CCD /* UIView+Corner.m in Sources */,
+				EC6E48B9EBF934AD008F2F37FF928485 /* UIView+Frame.m in Sources */,
+				F29ED1601C0F23CCE49463E10761787D /* XKSAlertWindow.m in Sources */,
+				B9644A89DD00D2E9CACBEBAD0B5DD0D1 /* XKSBillCustomViews.m in Sources */,
+				ED83947FB2ABD289D47F918F5BDAC6A2 /* XKSBillViewController.m in Sources */,
+				69836E9BBC7BADC9321C2F54274D8ABC /* XKSCommonFunction.m in Sources */,
+				0AC38BC9B04AE4BAD84D1C8ADCD1CBB6 /* XKSCommonSDK-dummy.m in Sources */,
+				AFE2C82B890B595C6ADF185D5AE98762 /* XKSDeviceBindingViewController.m in Sources */,
+				A1DC4BBB9A03C371E7688ADE0C589FEB /* XKSEncryptor.m in Sources */,
+				331BE0AC07F07814AC779622579BBAC6 /* XKSNetworking.m in Sources */,
+				6D6E0A2A3CFB3975E51D3FF511C046DC /* XKSRequestParameter.m in Sources */,
+				D30DEA84BC6874FB5919FB8E9BB4297D /* XKSShapeLayer.m in Sources */,
+				0D06D1C8F81B2ED541ED561E8726198B /* XKSSystemObj.m in Sources */,
+				E0E1CAC4DDC9BA4DEECD6DF294172A71 /* XKSVideoPreviewLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518ABBD47B4BF89B752356F1E4D3DB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F34EF463CE5FD5E539B04F5E6D5E6F1 /* GoodsShelfCell.m in Sources */,
+				1C596F97C4BA305AED6F017BD9181B00 /* IPConfigCell.m in Sources */,
+				2722415C08805E4C87004AA6AD653845 /* XKSGlobalSetting.m in Sources */,
+				8A2CECF18F255E75867FA872862983CA /* XKSSettingModule-dummy.m in Sources */,
+				1B18148C914BD9F0790D557071F8BADC /* XKSSettingServices.m in Sources */,
+				EB77ADDCD66253164CE85E13F1717F1E /* XKSSettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2E29763BFF711646B02E25C1393AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7338149A20B8BB0F5B0890C737C0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1BD825D22ABE99A489F24BF90C098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A13491F153E135EEEDDC0ACBFB248D0 /* Pods-ModuleDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C2C64A339C1F77F535B28B84791493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5ADA0EB8F9BCDB31D3BFEA24121496 /* XKSGoodsCell.m in Sources */,
+				AB423E3B374F946406D7C57A50A5C911 /* XKSHomeModule-dummy.m in Sources */,
+				6FCB2E62967F1FA5C4520807475750AF /* XKSHomeServices.m in Sources */,
+				5E7BD613A4AFCD5FCFA4F68FCEFD4ACC /* XKSHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E6F49DA1CB949DC50FBAEB38C6FCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05DFDAD7EC1D206B8F2E1BC52F1A89EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKSCommonSDK;
+			target = 6D3AC04916726D20F92A2F5B4658A079 /* XKSCommonSDK */;
+			targetProxy = 5D28863726D03E5FB0441FC6BBF8B0BA /* PBXContainerItemProxy */;
+		};
+		30E312EC26B88C394B3487CDDC3D2F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKSSettingModule;
+			target = FAB85150DDCCCC57A6793217CEF47664 /* XKSSettingModule */;
+			targetProxy = 46C717FF45DE2934838A2B3BE9A21ECF /* PBXContainerItemProxy */;
+		};
+		333CD63964409C394DFD9D684227AF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */;
+			targetProxy = 991C928F55DF24E8F2A7D6F95D517391 /* PBXContainerItemProxy */;
+		};
+		3856C884467FEF154D2D56971A5179A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = FE2F1D7B9D9FCEA148517E4657B243F4 /* MBProgressHUD */;
+			targetProxy = 0069BD7D5140D95AA58E2CF9A58067DA /* PBXContainerItemProxy */;
+		};
+		4ACFA621FFBB52BDF25EE74D9C8900E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XKSHomeModule-XKSHomeModule";
+			target = 666038BD441721E5EEB096EB47F5ABF1 /* XKSHomeModule-XKSHomeModule */;
+			targetProxy = BF725380D60087DB873D46A9CE133D67 /* PBXContainerItemProxy */;
+		};
+		571426D940C2C338AEDB84D256F4902A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKSHomeModule;
+			target = D0F9052554685E800A5423FE95258BF7 /* XKSHomeModule */;
+			targetProxy = E4A7D60517E55B85F6EFB3D2B6805905 /* PBXContainerItemProxy */;
+		};
+		6779236D1C0C28E4192B197A78533CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKSLoginModule;
+			target = 935ACEC7D2C57102D53890BAF0ADB43B /* XKSLoginModule */;
+			targetProxy = 1355B1B8CC697D8E1B02205470B54D29 /* PBXContainerItemProxy */;
+		};
+		7C8E0FBCF2E16277AA1AD0D35B833935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XKSSettingModule-XKSSettingModule";
+			target = 123C32609F3EF8D0BB83AEFA1642E6A4 /* XKSSettingModule-XKSSettingModule */;
+			targetProxy = A6432D498CD6CD8C0CCC1531C548007B /* PBXContainerItemProxy */;
+		};
+		D5EB6041F22C2FDE661803E6F63B1522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XKSCommonSDK-XKSCommonSDK";
+			target = 66E840912AED238862E908A1E641AC65 /* XKSCommonSDK-XKSCommonSDK */;
+			targetProxy = D78572C466FFAE353CFC4C9B22C237FA /* PBXContainerItemProxy */;
+		};
+		E15F7A1506434E025027C7C4C8BDA863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XKSLoginModule-XKSLoginModule";
+			target = 1C1B8635136D38C6D845EDC6B4C44011 /* XKSLoginModule-XKSLoginModule */;
+			targetProxy = F4A7327B316AFE96AF55669ED918A12F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01307F809D5D669E21EB9BB21047B2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20435DBD5757471E3455DEE8A38C50F5 /* XKSCommonSDK.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSCommonSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSCommonSDK/ResourceBundle-XKSCommonSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSCommonSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		08F7C16E02AC14955F7D6FE8BCBF6C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DFC076E1E116D0BD10D4AEDB41DEA3 /* XKSSettingModule.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSSettingModule";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSSettingModule/ResourceBundle-XKSSettingModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSSettingModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DDD5C5D1DF3B8CBE3FDA3D9FCE84ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20435DBD5757471E3455DEE8A38C50F5 /* XKSCommonSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSCommonSDK/XKSCommonSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F1DCE74980303898CB8238C0E8709EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E31525D8625B4543F6D5F257B36C451 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2CBF20DAFFBD24E6D1B3488C164CA827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20435DBD5757471E3455DEE8A38C50F5 /* XKSCommonSDK.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSCommonSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSCommonSDK/ResourceBundle-XKSCommonSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSCommonSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C69D651F22327F28D8EC2AEDCF09BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DFC076E1E116D0BD10D4AEDB41DEA3 /* XKSSettingModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSSettingModule/XKSSettingModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		597040510AF35BFCB3E68AD315FF4792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEE3E10A599C65F0A0D268497001349 /* XKSHomeModule.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSHomeModule";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSHomeModule/ResourceBundle-XKSHomeModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5F3294B6B845396DA5757DBA31F23466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD82B089168FB2D83D2D5B4E07AF281 /* XKSLoginModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSLoginModule/XKSLoginModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		660E787D24A8CC468ABE199CC7B853A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEE3E10A599C65F0A0D268497001349 /* XKSHomeModule.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSHomeModule";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSHomeModule/ResourceBundle-XKSHomeModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		67D51781D64FA16978163E9B115CEC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEE3E10A599C65F0A0D268497001349 /* XKSHomeModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSHomeModule/XKSHomeModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		870EE49C238D3C69D7BD39724FCDBA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD82B089168FB2D83D2D5B4E07AF281 /* XKSLoginModule.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSLoginModule";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSLoginModule/ResourceBundle-XKSLoginModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		899DD7ABBC337F6D9AFED7848815C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E155DC135849BA57A65B5409BB87352 /* Pods-ModuleDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5497DA97F4E52DCDF8D2F495B22222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DFC076E1E116D0BD10D4AEDB41DEA3 /* XKSSettingModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSSettingModule/XKSSettingModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C14E31B42496EF5C34C9BF2D27E11E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E31525D8625B4543F6D5F257B36C451 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1C3D30FD620FBE5F1A9B4578A97A180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DFC076E1E116D0BD10D4AEDB41DEA3 /* XKSSettingModule.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSSettingModule";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSSettingModule/ResourceBundle-XKSSettingModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSSettingModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C4F800ECA17845976F3EB5F5D1AF699C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20435DBD5757471E3455DEE8A38C50F5 /* XKSCommonSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSCommonSDK/XKSCommonSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C943FD15ACA90991F7FF979AB3C312B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD82B089168FB2D83D2D5B4E07AF281 /* XKSLoginModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSLoginModule/XKSLoginModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3CC1B0EED0810B73926A00214331829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B33AFB438CA6ECFB088A6A018C2B5A /* Pods-ModuleDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E48E3E856092098FA1A022BC47204F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEE3E10A599C65F0A0D268497001349 /* XKSHomeModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XKSHomeModule/XKSHomeModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F032D9E85D5E8F69F235F6CCCB24AED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD82B089168FB2D83D2D5B4E07AF281 /* XKSLoginModule.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XKSLoginModule";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XKSLoginModule/ResourceBundle-XKSLoginModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XKSLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0167E49DFA51E526393D08D802C20C9B /* Build configuration list for PBXNativeTarget "XKSCommonSDK-XKSCommonSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01307F809D5D669E21EB9BB21047B2CC /* Debug */,
+				2CBF20DAFFBD24E6D1B3488C164CA827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075D165AD2785782C4962DF9BE723D57 /* Build configuration list for PBXNativeTarget "XKSSettingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5497DA97F4E52DCDF8D2F495B22222 /* Debug */,
+				4C69D651F22327F28D8EC2AEDCF09BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8FF2E21BA0B2A516B390E4AFAE680A /* Build configuration list for PBXNativeTarget "XKSSettingModule-XKSSettingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C3D30FD620FBE5F1A9B4578A97A180 /* Debug */,
+				08F7C16E02AC14955F7D6FE8BCBF6C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374865B277F0E6A9BF7D1588A471F985 /* Build configuration list for PBXNativeTarget "XKSHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48E3E856092098FA1A022BC47204F29 /* Debug */,
+				67D51781D64FA16978163E9B115CEC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556088E47808797C524D57D2FC56989A /* Build configuration list for PBXNativeTarget "XKSCommonSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F800ECA17845976F3EB5F5D1AF699C /* Debug */,
+				1DDD5C5D1DF3B8CBE3FDA3D9FCE84ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FAA44F2D89C124F6A5BF9338B601FBB /* Build configuration list for PBXNativeTarget "XKSLoginModule-XKSLoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870EE49C238D3C69D7BD39724FCDBA9E /* Debug */,
+				F032D9E85D5E8F69F235F6CCCB24AED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF1CD19EC72052A95544BD4080F7D12 /* Build configuration list for PBXNativeTarget "XKSHomeModule-XKSHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E787D24A8CC468ABE199CC7B853A8 /* Debug */,
+				597040510AF35BFCB3E68AD315FF4792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDBB5215707506374C4AA2597F82F7 /* Build configuration list for PBXNativeTarget "Pods-ModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899DD7ABBC337F6D9AFED7848815C2BF /* Debug */,
+				E3CC1B0EED0810B73926A00214331829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B30EE21B5DC88749D35626B129DB7C /* Build configuration list for PBXNativeTarget "XKSLoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C943FD15ACA90991F7FF979AB3C312B2 /* Debug */,
+				5F3294B6B845396DA5757DBA31F23466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F5671C4613023EE94A2E62DA06031D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14E31B42496EF5C34C9BF2D27E11E2C /* Debug */,
+				1F1DCE74980303898CB8238C0E8709EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3A1AAA1D073524004DAFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3A1AA81D073524004DAFB7 /* Main.storyboard */; };
+		1D3A1AAC1D073524004DAFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3A1AAB1D073524004DAFB7 /* Assets.xcassets */; };
+		1D3A1AAF1D073524004DAFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3A1AAD1D073524004DAFB7 /* LaunchScreen.storyboard */; };
+		1D3A1ABF1D073591004DAFB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1ABA1D073591004DAFB7 /* AppDelegate.m */; };
+		1D3A1AC11D073591004DAFB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1ABC1D073591004DAFB7 /* main.m */; };
+		1D3A1AC21D073591004DAFB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1ABE1D073591004DAFB7 /* ViewController.m */; };
+		1D3A1AC51D0735E3004DAFB7 /* XKSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1AC41D0735E3004DAFB7 /* XKSSettingViewController.m */; };
+		1D3A1AC71D0735EC004DAFB7 /* XKSSettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3A1AC61D0735EC004DAFB7 /* XKSSettingViewController.storyboard */; };
+		1D3A1AC91D073662004DAFB7 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3A1AC81D073662004DAFB7 /* images.xcassets */; };
+		1D3A1ACC1D07B069004DAFB7 /* XKSSettingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1ACB1D07B069004DAFB7 /* XKSSettingServices.m */; };
+		1D3A1ACF1D07B331004DAFB7 /* XKSGlobalSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1ACE1D07B331004DAFB7 /* XKSGlobalSetting.m */; };
+		1D3A1AD31D07B47F004DAFB7 /* GoodsShelfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1AD21D07B47F004DAFB7 /* GoodsShelfCell.m */; };
+		1D3A1AD61D07BA0C004DAFB7 /* IPConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A1AD51D07BA0C004DAFB7 /* IPConfigCell.m */; };
+		82591322B7B65127DC14FF27 /* libPods-XKSSettingModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5F02E199C65CE2A097ECE6 /* libPods-XKSSettingModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3A1A9C1D073524004DAFB7 /* XKSSettingModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKSSettingModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3A1AA91D073524004DAFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D3A1AAB1D073524004DAFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		1D3A1AAE1D073524004DAFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D3A1AB91D073591004DAFB7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3A1ABA1D073591004DAFB7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D3A1ABB1D073591004DAFB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = demo/Info.plist; sourceTree = "<group>"; };
+		1D3A1ABC1D073591004DAFB7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = demo/main.m; sourceTree = "<group>"; };
+		1D3A1ABD1D073591004DAFB7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D3A1ABE1D073591004DAFB7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D3A1AC31D0735E3004DAFB7 /* XKSSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSSettingViewController.h; sourceTree = "<group>"; };
+		1D3A1AC41D0735E3004DAFB7 /* XKSSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSSettingViewController.m; sourceTree = "<group>"; };
+		1D3A1AC61D0735EC004DAFB7 /* XKSSettingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XKSSettingViewController.storyboard; sourceTree = "<group>"; };
+		1D3A1AC81D073662004DAFB7 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		1D3A1ACA1D07B069004DAFB7 /* XKSSettingServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSSettingServices.h; sourceTree = "<group>"; };
+		1D3A1ACB1D07B069004DAFB7 /* XKSSettingServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSSettingServices.m; sourceTree = "<group>"; };
+		1D3A1ACD1D07B331004DAFB7 /* XKSGlobalSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSGlobalSetting.h; sourceTree = "<group>"; };
+		1D3A1ACE1D07B331004DAFB7 /* XKSGlobalSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSGlobalSetting.m; sourceTree = "<group>"; };
+		1D3A1AD11D07B47F004DAFB7 /* GoodsShelfCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsShelfCell.h; sourceTree = "<group>"; };
+		1D3A1AD21D07B47F004DAFB7 /* GoodsShelfCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsShelfCell.m; sourceTree = "<group>"; };
+		1D3A1AD41D07BA0C004DAFB7 /* IPConfigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPConfigCell.h; sourceTree = "<group>"; };
+		1D3A1AD51D07BA0C004DAFB7 /* IPConfigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPConfigCell.m; sourceTree = "<group>"; };
+		451614A4EB9E7532B8C67232 /* Pods-XKSSettingModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSSettingModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKSSettingModule/Pods-XKSSettingModule.release.xcconfig"; sourceTree = "<group>"; };
+		4F5F02E199C65CE2A097ECE6 /* libPods-XKSSettingModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKSSettingModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73DBE31670F831C76A20353 /* Pods-XKSSettingModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSSettingModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKSSettingModule/Pods-XKSSettingModule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3A1A991D073524004DAFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82591322B7B65127DC14FF27 /* libPods-XKSSettingModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3A1A931D073524004DAFB7 = {
+			isa = PBXGroup;
+			children = (
+				1D3A1A9E1D073524004DAFB7 /* XKSSettingModule */,
+				1D3A1A9D1D073524004DAFB7 /* Products */,
+				F5A458D67F6399C5AED67068 /* Pods */,
+				73BEC4D71955C7349E332F8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D3A1A9D1D073524004DAFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1A9C1D073524004DAFB7 /* XKSSettingModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D3A1A9E1D073524004DAFB7 /* XKSSettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1AB81D07353C004DAFB7 /* demo */,
+				1D3A1AB71D073536004DAFB7 /* images */,
+				1D3A1AB61D07352E004DAFB7 /* src */,
+				1D3A1A9F1D073524004DAFB7 /* Supporting Files */,
+			);
+			path = XKSSettingModule;
+			sourceTree = "<group>";
+		};
+		1D3A1A9F1D073524004DAFB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1ABB1D073591004DAFB7 /* Info.plist */,
+				1D3A1ABC1D073591004DAFB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D3A1AB61D07352E004DAFB7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1AD01D07B44C004DAFB7 /* view */,
+				1D3A1ACA1D07B069004DAFB7 /* XKSSettingServices.h */,
+				1D3A1ACB1D07B069004DAFB7 /* XKSSettingServices.m */,
+				1D3A1ACD1D07B331004DAFB7 /* XKSGlobalSetting.h */,
+				1D3A1ACE1D07B331004DAFB7 /* XKSGlobalSetting.m */,
+				1D3A1AC31D0735E3004DAFB7 /* XKSSettingViewController.h */,
+				1D3A1AC41D0735E3004DAFB7 /* XKSSettingViewController.m */,
+				1D3A1AC61D0735EC004DAFB7 /* XKSSettingViewController.storyboard */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1D3A1AB71D073536004DAFB7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1AC81D073662004DAFB7 /* images.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1D3A1AB81D07353C004DAFB7 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1AB91D073591004DAFB7 /* AppDelegate.h */,
+				1D3A1ABA1D073591004DAFB7 /* AppDelegate.m */,
+				1D3A1ABD1D073591004DAFB7 /* ViewController.h */,
+				1D3A1ABE1D073591004DAFB7 /* ViewController.m */,
+				1D3A1AA81D073524004DAFB7 /* Main.storyboard */,
+				1D3A1AAD1D073524004DAFB7 /* LaunchScreen.storyboard */,
+				1D3A1AAB1D073524004DAFB7 /* Assets.xcassets */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		1D3A1AD01D07B44C004DAFB7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1D3A1AD11D07B47F004DAFB7 /* GoodsShelfCell.h */,
+				1D3A1AD21D07B47F004DAFB7 /* GoodsShelfCell.m */,
+				1D3A1AD41D07BA0C004DAFB7 /* IPConfigCell.h */,
+				1D3A1AD51D07BA0C004DAFB7 /* IPConfigCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		73BEC4D71955C7349E332F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5F02E199C65CE2A097ECE6 /* libPods-XKSSettingModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A458D67F6399C5AED67068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A73DBE31670F831C76A20353 /* Pods-XKSSettingModule.debug.xcconfig */,
+				451614A4EB9E7532B8C67232 /* Pods-XKSSettingModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D3A1A9B1D073524004DAFB7 /* XKSSettingModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3A1AB31D073524004DAFB7 /* Build configuration list for PBXNativeTarget "XKSSettingModule" */;
+			buildPhases = (
+				81695BB9F137213EA3A606E9 /* 📦 Check Pods Manifest.lock */,
+				1D3A1A981D073524004DAFB7 /* Sources */,
+				1D3A1A991D073524004DAFB7 /* Frameworks */,
+				1D3A1A9A1D073524004DAFB7 /* Resources */,
+				3BD4ED5A2C36965267C19265 /* 📦 Embed Pods Frameworks */,
+				84504C3564ED9F9E5BC72A27 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKSSettingModule;
+			productName = XKSSettingModule;
+			productReference = 1D3A1A9C1D073524004DAFB7 /* XKSSettingModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D3A1A941D073524004DAFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "_Finder丶Tiwk";
+				TargetAttributes = {
+					1D3A1A9B1D073524004DAFB7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D3A1A971D073524004DAFB7 /* Build configuration list for PBXProject "XKSSettingModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D3A1A931D073524004DAFB7;
+			productRefGroup = 1D3A1A9D1D073524004DAFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D3A1A9B1D073524004DAFB7 /* XKSSettingModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D3A1A9A1D073524004DAFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3A1AAF1D073524004DAFB7 /* LaunchScreen.storyboard in Resources */,
+				1D3A1AC71D0735EC004DAFB7 /* XKSSettingViewController.storyboard in Resources */,
+				1D3A1AAC1D073524004DAFB7 /* Assets.xcassets in Resources */,
+				1D3A1AAA1D073524004DAFB7 /* Main.storyboard in Resources */,
+				1D3A1AC91D073662004DAFB7 /* images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD4ED5A2C36965267C19265 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XKSSettingModule/Pods-XKSSettingModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81695BB9F137213EA3A606E9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84504C3564ED9F9E5BC72A27 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XKSSettingModule/Pods-XKSSettingModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3A1A981D073524004DAFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3A1AD61D07BA0C004DAFB7 /* IPConfigCell.m in Sources */,
+				1D3A1AC51D0735E3004DAFB7 /* XKSSettingViewController.m in Sources */,
+				1D3A1ACC1D07B069004DAFB7 /* XKSSettingServices.m in Sources */,
+				1D3A1ACF1D07B331004DAFB7 /* XKSGlobalSetting.m in Sources */,
+				1D3A1ABF1D073591004DAFB7 /* AppDelegate.m in Sources */,
+				1D3A1AD31D07B47F004DAFB7 /* GoodsShelfCell.m in Sources */,
+				1D3A1AC11D073591004DAFB7 /* main.m in Sources */,
+				1D3A1AC21D073591004DAFB7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D3A1AA81D073524004DAFB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3A1AA91D073524004DAFB7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1D3A1AAD1D073524004DAFB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3A1AAE1D073524004DAFB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D3A1AB11D073524004DAFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D3A1AB21D073524004DAFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3A1AB41D073524004DAFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73DBE31670F831C76A20353 /* Pods-XKSSettingModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/XKSSettingModule/demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.XKSSettingModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D3A1AB51D073524004DAFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451614A4EB9E7532B8C67232 /* Pods-XKSSettingModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/XKSSettingModule/demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.XKSSettingModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3A1A971D073524004DAFB7 /* Build configuration list for PBXProject "XKSSettingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3A1AB11D073524004DAFB7 /* Debug */,
+				1D3A1AB21D073524004DAFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3A1AB31D073524004DAFB7 /* Build configuration list for PBXNativeTarget "XKSSettingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3A1AB41D073524004DAFB7 /* Debug */,
+				1D3A1AB51D073524004DAFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D3A1A941D073524004DAFB7 /* Project object */;
+}

@@ -1,0 +1,8 @@
+platform :ios, "8.0"
+
+target "XKSHomeModule" do
+
+pod 'XKSCommonSDK', :path => '../XKSCommonSDK/XKSCommonSDK.podspec'
+pod 'XKSLoginModule', :path => '../XKSLoginModule/XKSLoginModule.podspec'
+
+end

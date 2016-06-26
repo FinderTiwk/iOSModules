@@ -1,0 +1,9 @@
+platform :ios, "8.0"
+
+target "XKSCommon" do
+  pod 'OpenSSL-Classic', '~> 1.0.1.j'
+end
+
+target "XKSCommonSDK" do
+    pod 'OpenSSL-Classic', '~> 1.0.1.j'
+end

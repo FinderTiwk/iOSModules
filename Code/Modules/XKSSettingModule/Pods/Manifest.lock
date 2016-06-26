@@ -1,0 +1,19 @@
+PODS:
+  - OpenSSL-Classic (1.0.1.j)
+  - XKSCommonSDK (1.0.0):
+    - OpenSSL-Classic (~> 1.0.1.j)
+
+DEPENDENCIES:
+  - XKSCommonSDK (from `../XKSCommonSDK/XKSCommonSDK.podspec`)
+
+EXTERNAL SOURCES:
+  XKSCommonSDK:
+    :path: "../XKSCommonSDK/XKSCommonSDK.podspec"
+
+SPEC CHECKSUMS:
+  OpenSSL-Classic: 85156ce2b08cbc9a491ff68efcf7d2c7ead388ec
+  XKSCommonSDK: 725ab97e64c873774b038ffd382b819b1a436041
+
+PODFILE CHECKSUM: 19649b90c2f2932f88163d95b7cb6360862c4643
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/OpenSSL-Classic" "${PODS_ROOT}/Headers/Public/XKSCommonSDK" "${PODS_ROOT}/Headers/Public/XKSHomeModule" "${PODS_ROOT}/Headers/Public/XKSLoginModule" "${PODS_ROOT}/Headers/Public/XKSSettingModule"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/XKSCommonSDK" "$PODS_CONFIGURATION_BUILD_DIR/XKSHomeModule" "$PODS_CONFIGURATION_BUILD_DIR/XKSLoginModule" "$PODS_CONFIGURATION_BUILD_DIR/XKSSettingModule" $(inherited) "${PODS_ROOT}/OpenSSL-Classic/lib-ios"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL-Classic" -isystem "${PODS_ROOT}/Headers/Public/XKSCommonSDK" -isystem "${PODS_ROOT}/Headers/Public/XKSHomeModule" -isystem "${PODS_ROOT}/Headers/Public/XKSLoginModule" -isystem "${PODS_ROOT}/Headers/Public/XKSSettingModule"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"MBProgressHUD" -l"XKSCommonSDK" -l"XKSHomeModule" -l"XKSLoginModule" -l"XKSSettingModule" -l"crypto" -l"ssl" -framework "CoreGraphics"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

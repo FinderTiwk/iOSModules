@@ -1,0 +1,1 @@
+../../../../../XKSCommonSDK/XKSCommon/SDK/FuntionModule/Encrypt/Base/XKSSignater.h

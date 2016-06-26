@@ -1,0 +1,7 @@
+platform :ios, "8.0"
+
+target "XKSSettingModule" do
+
+pod 'XKSCommonSDK', :path => '../XKSCommonSDK/XKSCommonSDK.podspec'
+
+end

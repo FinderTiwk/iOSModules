@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "8.0"
+
+target "ModuleDemo" do
+
+pod 'XKSCommonSDK', :path => '../../Modules/XKSCommonSDK/XKSCommonSDK.podspec'
+pod 'XKSLoginModule', :path => '../../Modules/XKSLoginModule/XKSLoginModule.podspec'
+pod 'XKSSettingModule', :path => '../../Modules/XKSSettingModule/XKSSettingModule.podspec'
+pod 'XKSHomeModule', :path => '../../Modules/XKSHomeModule/XKSHomeModule.podspec'
+
+end

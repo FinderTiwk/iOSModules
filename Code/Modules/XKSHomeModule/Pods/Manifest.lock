@@ -1,0 +1,27 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - OpenSSL-Classic (1.0.1.j)
+  - XKSCommonSDK (1.0.0):
+    - OpenSSL-Classic (~> 1.0.1.j)
+  - XKSLoginModule (1.0.0):
+    - MBProgressHUD (~> 0.9.2)
+
+DEPENDENCIES:
+  - XKSCommonSDK (from `../XKSCommonSDK/XKSCommonSDK.podspec`)
+  - XKSLoginModule (from `../XKSLoginModule/XKSLoginModule.podspec`)
+
+EXTERNAL SOURCES:
+  XKSCommonSDK:
+    :path: "../XKSCommonSDK/XKSCommonSDK.podspec"
+  XKSLoginModule:
+    :path: "../XKSLoginModule/XKSLoginModule.podspec"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  OpenSSL-Classic: 85156ce2b08cbc9a491ff68efcf7d2c7ead388ec
+  XKSCommonSDK: 725ab97e64c873774b038ffd382b819b1a436041
+  XKSLoginModule: ae728449b9137a6696bcb836d025f93ffbb4ae9e
+
+PODFILE CHECKSUM: 243156e16d3e367e9c205ba785eca4b83ca7c3fe
+
+COCOAPODS: 1.0.0

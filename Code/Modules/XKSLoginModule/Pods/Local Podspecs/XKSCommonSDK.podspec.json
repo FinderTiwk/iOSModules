@@ -1,0 +1,30 @@
+{
+  "name": "XKSCommonSDK",
+  "version": "1.0.0",
+  "summary": "公用模块组件",
+  "homepage": "www.xkeshi.com",
+  "license": "WTF",
+  "authors": {
+    "_Finder丶Tiwk": "fh@xkeshi.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "XKSCommon"
+  },
+  "source_files": "XKSCommon/SDK/**/*.{h,m}",
+  "requires_arc": true,
+  "resource_bundles": {
+    "XKSCommonSDK": [
+      "XKSCommon/SDK/**/*.{storyboard,xcassets,xib}"
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "OpenSSL-Classic": [
+        "~> 1.0.1.j"
+      ]
+    }
+  }
+}

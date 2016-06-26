@@ -1,0 +1,12 @@
+PODS:
+  - OpenSSL-Classic (1.0.1.j)
+
+DEPENDENCIES:
+  - OpenSSL-Classic (~> 1.0.1.j)
+
+SPEC CHECKSUMS:
+  OpenSSL-Classic: 85156ce2b08cbc9a491ff68efcf7d2c7ead388ec
+
+PODFILE CHECKSUM: 03a23a69ea3133e75d4e3491799869fbf0ca8eac
+
+COCOAPODS: 1.0.0

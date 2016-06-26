@@ -1,0 +1,31 @@
+{
+  "name": "XKSLoginModule",
+  "version": "1.0.0",
+  "summary": "登录模块",
+  "homepage": "www.xkeshi.com",
+  "license": "WTF",
+  "authors": {
+    "_Finder丶Tiwk": "fh@xkeshi.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "XKSLoginModule"
+  },
+  "source_files": "XKSLoginModule/src/**/*.{h,m}",
+  "requires_arc": true,
+  "resource_bundles": {
+    "XKSLoginModule": [
+      "XKSLoginModule/src/**/*.{storyboard,xib}",
+      "XKSLoginModule/images/images.xcassets"
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "MBProgressHUD": [
+        "~> 0.9.2"
+      ]
+    }
+  }
+}

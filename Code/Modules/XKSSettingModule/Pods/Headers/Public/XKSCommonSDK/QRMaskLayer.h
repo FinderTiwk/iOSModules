@@ -1,0 +1,1 @@
+../../../../../XKSCommonSDK/XKSCommon/SDK/PluginModule/Layer/QRMaskLayer.h
